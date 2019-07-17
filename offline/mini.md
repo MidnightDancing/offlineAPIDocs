@@ -6,8 +6,8 @@
 
   微信：https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_7  
   支付宝：https://docs.open.alipay.com/common/105591  
-
-- 请通过主动调用**2.6订单状态同步**接口，配合**3.1交易结果通知**（异步回调）来保证订单状态一致性
+  
+- 请通过主动调用**3.4订单状态同步**接口来保证订单状态一致性
 
 **请求URL：**   
 
