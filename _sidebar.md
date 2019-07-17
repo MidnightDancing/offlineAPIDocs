@@ -2,18 +2,12 @@
     * [1.1协议](design/protocol.md)
     * [1.2数字签名](design/signature.md)
     * [1.3签名验证（java）](design/verification.md)
-* **2.支付相关接口定义**
-    * [2.1公众号/小程序支付](payguide/mini.md)
-    * [2.2商户撤销交易](payguide/repeal.md)
-    * [2.3商户退款请求](payguide/refund.md)
-    * [2.4扫码支付-用户被扫](payguide/unactivescan.md)
-    * [2.5扫码支付-用户主扫](payguide/activescan.md)
-    * [2.6订单状态同步](payguide/apisync.md)
-    * [2.7对账文件下载](payguide/getcollatefile.md)
-    * [2.8退款订单查询](payguide/refundquery.md)
-* **3.基础能力接口定义**
-    * [3.1交易结果通知](basicability/notify.md)
-    * [3.2第三方订单查询](basicability/thirdpartyorderquery.md)
-* **4.其他**
-    * [4.1接入常见问题说明](others/qa.md)
-    * [4.2全局参数说明](globalparamexplain.md)
+* **2.入网相关接口定义**
+    * [2.1商户信息录入](design/protocol.md)
+* **3.支付相关接口定义**
+    * [3.1公众号/小程序支付](offline/mini.md)
+    * [3.2扫码支付-用户被扫](offline/unactivescan.md)
+    * [3.3扫码支付-用户主扫](offline/activescan.md)
+    * [3.4订单状态同步](offline/apisync.md)
+* **4.基础能力接口定义**
+    * [4.1交易结果通知](basicability/notify.md)
