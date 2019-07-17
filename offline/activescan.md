@@ -8,7 +8,7 @@
 
 **请求URL：** 
 
-`https://mofunapi.umfintech.com/in-pay-client/api/activescan`
+`待定`
 
 **请求方式：**
 

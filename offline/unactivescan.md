@@ -10,7 +10,7 @@
 
 **请求URL：** 
 
-`https://mofunapi.umfintech.com/in-pay-client/api/unactivescan`
+`待定`
   
 **请求方式：**
 
