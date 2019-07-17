@@ -55,7 +55,8 @@ context={
 |	platDate	|	平台日期	|		|	M	|	平台日期   |
 |	platTime	|	平台时间	|		|	M	|	平台时间   |
 |	orderId	|	商户订单号	|	64	|	O	|		|
-|	paySeq	|	平台处理流水 	|		|	M	|	平台处理流水（对账及打印小票使用）	|
+|	transactionId	|	联动流水号	|	32	|	M	|	联动优势的流水号|
+|	paySeq	|	平台处理流水 	|		|	M	|	平台处理流水 	|
 |	amount	|	付款金额	|	13	|	M	|	是人民币，且以分为单位	|
 |	payType	|	支付类型	|		|	M	|	WX：微信刷卡支付<br>AL：Alipay支付宝条码支付<br>YL：银联二维码支付	|
 |	feeUrl	|	缴费二维码地址	|		|	M	|	成功时返回内容，失败返回空字符串	|

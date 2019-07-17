@@ -63,6 +63,7 @@ context={
 |	platDate	|	平台日期	|		|	M	|	平台日期   |
 |	platTime	|	平台时间	|		|	M	|	平台时间   |
 |	payType	|	支付类型	|		|	M	|WX： 微信刷卡支付</br>AL: Alipay支付宝条码支付	|	WX|
+|	transactionId	|	联动流水号	|	32	|	M	|	联动优势的流水号|
 |	openId	|	用户授权标识	|		|	M	|		|122010000151|
 |	appId	|	APPID	|		|	M	|	微信及支付宝的AppId|	2c91aa1843444d09a5a7ca811955bbe2|
 |	prepayId	|	预支付ID	|		|	M	|调起支付插件需要	|	prepay_id=wx091722014693444a557c8f280689718193|

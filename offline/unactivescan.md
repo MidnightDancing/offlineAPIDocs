@@ -62,10 +62,7 @@ context={
 |	platDate	|	平台日期	|		|	M	|	平台日期   |
 |	platTime	|	平台时间	|		|	M	|	平台时间   |
 |	orderId	|	商户订单号	|	64	|	O	|		|
+|	transactionId	|	联动订单号	|	32	|	M	|	联动优势的订单号|
 |	paySeq	|	支付流水号	|	64	|	O	|	支付流水号，成功返回	|
 |	amount	|	订单金额	|	10	|	M	|	订单金额 	|
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
-
-
- **备注** 
-- 更多返回错误代码请看[全局参数说明](单页面地址 : https://www.showdoc.cc/web/#/page/39370587223487 "全局参数说明")
