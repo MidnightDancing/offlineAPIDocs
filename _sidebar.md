@@ -6,7 +6,7 @@
     * [2.1商户信息录入](design/protocol.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
-    * [3.2扫码支付-用户被扫](offline/unactivescan.md)
+    * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
     * [3.3扫码支付-用户主扫](offline/activescan.md)
     * [3.4订单状态同步](offline/apisync.md)
 * **4.基础能力接口定义**
