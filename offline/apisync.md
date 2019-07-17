@@ -26,27 +26,12 @@
  **商户请求报文示例**
 
 ```json
-context={
-	"subMerId": "30000102",
+{
+	"merId": "30000102",
 	"payType": "WX",
-	"apiVersion": "1.0",
-	"partnerOrderId": "1509518653211",
+	"orderId": "1509518653211",
 	"sign": "fgJpXQpFKPsLxlNJvFK3MPc5x+GHEQru1Q+69m65358e8WTge9Djv9qT6wkJOijPOESOZNaWM1mDCePA7WaeWwdR9CjjLTzf9gVKmFNcSehTbUl2JW8WSg09dPqkfbZq9SFrg6vGC5HHf/Z9YJF82gtVlzIt4SzwxGx//EzTyPM=",
-	"orderDate": "20171101",
-	"proxyId": "0049",
-	"ymfFlag": "1"
-}
-```
- **非YmfPay商户请求报文示例**
-```json
-context={
-	"subMerId": "30000102",
-	"payType": "WX",
-	"apiVersion": "1.0",
-	"partnerOrderId": "1509518653211",
-	"sign": "p563KDqGXjOxHDoN7uWAoqd6S3Jxzdq9tj+8cg56BYPzZu/eSIMKWuVwHsrtEKYmZ40dvOtfzuJNmEqFoRUzgCllld+4eSVQwJXLeukJlwO/WOpUyBZnkNvZ8A1HqijKKwPrepKvWkYKBsGNhGfMnksnmaCmD8h1+o+hQkd3DZA=",
-	"orderDate": "20171101",
-	"proxyId": "0049"
+	"orderDate": "20171101"
 }
 ```
 

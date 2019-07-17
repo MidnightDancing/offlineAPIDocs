@@ -41,16 +41,14 @@
 
  **商户请求报文示例**
 ```json
-context={
-	"subMerId": "30000102",
+{
+	"merId": "30000102",
 	"amount": "9",
 	"payType": "WX",
-	"apiVersion": "1.0",
-	"partnerOrderId": "HSAPI1520425994612",
+	"orderId": "HSAPI1520425994612",
 	"openId": "122010000151",
 	"appId": "111",
-	"sign": "FI8kw10QzZICpj2xRjsYcmU+HI7oNFm4KaNSPeT4YbmG7izCV4m9jZJQ1gxkny0bt5xY8MZXXtzFeRR5KEyzp2YFYMC0AFjvsd/5HGlE6JxrVKNg/LhIba7aR7WMrX4FtEcmBm4ILMosgVhf665KgGtdHBuCd5qRfAs217iPWd0=",
-	"proxyId": "0049"
+	"sign": "FI8kw10QzZICpj2xRjsYcmU+HI7oNFm4KaNSPeT4YbmG7izCV4m9jZJQ1gxkny0bt5xY8MZXXtzFeRR5KEyzp2YFYMC0AFjvsd/5HGlE6JxrVKNg/LhIba7aR7WMrX4FtEcmBm4ILMosgVhf665KgGtdHBuCd5qRfAs217iPWd0="
 }
 ```
  **返回参数说明** 

@@ -31,18 +31,15 @@
 
  **商户请求报文示例**
 
-```json 
-context={
+```json
+{
 	"amount": "99999",
-	"subMerId": "30000102",
+	"merId": "30000102",
 	"payType": "WX",
-	"apiVersion": "1.0",
 	"reqDate": "20180313",
-	"partnerOrderId": "HSAPI1520909695265",
+	"orderId": "HSAPI1520909695265",
 	"sign": "MMokEDpwU7vHy2AP2o4esBBLHRdsn3BorIdSHkbGpEOEAr9USwj++l9K8lyder2Yy/WmtEhyEL9xKiX4mS14ds7OKdzX6tGzy4qc2lsdRRSe5l9I9Gj7NdCLsq1TUccr2gnGibvu9UaAsCUCNmJqBrSW0YUl7+mVND9FFGecBe0=",
-	"reqTime": "105455",
-	"operator": "htcs2",
-	"proxyId": "0049"
+	"reqTime": "105455"
 }
 ```
 

@@ -36,21 +36,20 @@
  **商户请求报文示例**
 
 ```json
-context={
+
+{
 	"amount": "1",
-	"partnerOrderId": "20180122LDYF00008940",
+	"orderId": "20180122LDYF00008940",
 	"goodsId": "goods",
 	"sign": "CBr2Dui55aRxyiUJoWCxckL8lWn7UeBxvAJFsV2hrtFDvVSOp4v4cgUPc1Nk3e1d+oitAhi9b3AAVSoAuEWV0fKKIQRwYTSPTzLbX9fLXq2KE423Km5GW5HWqpN8+guCH1UUpSlNVzVYax9h5D/n2YSWv/g6KWZYye+kEP8K3rA=",
-	"mediaType": "05",
 	"reqTime": "105356",
-	"subMerId": "30000064",
+	"merId": "30000064",
 	"payType": "WX",
-	"apiVersion": "1.0",
 	"reqDate": "20180313",
 	"mediaNo": "134919586213926735",
-	"goodsInfo": "goods",
-	"proxyId": "0001"
+	"goodsInfo": "goods"
 }
+
 ```
 
  **返回参数说明** 
