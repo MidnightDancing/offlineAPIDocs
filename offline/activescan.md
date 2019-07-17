@@ -19,7 +19,7 @@
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |:--------:|:--------:|:--------:|:--------:|:--------|
 |	orderTime	|	订单时间	|	16	|	M	|	yyyyMMddHHmmss	|
-|	agentId	|	代理商编号	|	8	|	M	|	代理商编号(联动平台分配)	|
+|	agentId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
 |	merId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	orderNo	|	商户订单号	|	64	|	M	|	商户的支付订单号	|
 |	txnAmt	|	交易金额	|	13	|	M	|	是人民币，且以分为单位	|
@@ -33,13 +33,13 @@
 
 ```json
 {
-	"amount": "99999",
+	"txnAmt": "99999",
 	"merId": "30000102",
-	"payType": "WX",
-	"reqDate": "20180313",
-	"orderId": "HSAPI1520909695265",
-	"sign": "MMokEDpwU7vHy2AP2o4esBBLHRdsn3BorIdSHkbGpEOEAr9USwj++l9K8lyder2Yy/WmtEhyEL9xKiX4mS14ds7OKdzX6tGzy4qc2lsdRRSe5l9I9Gj7NdCLsq1TUccr2gnGibvu9UaAsCUCNmJqBrSW0YUl7+mVND9FFGecBe0=",
-	"reqTime": "105455"
+	"agentId": "Y000000001",
+	"orderType": "alipay",
+	"orderTime": "20180313105455",
+	"orderNo": "HSAPI1520909695265",
+	"sign": "MMokEDpwU7vHy2AP2o4esBBLHRdsn3BorIdSHkbGpEOEAr9USwj++l9K8lyder2Yy/WmtEhyEL9xKiX4mS14ds7OKdzX6tGzy4qc2lsdRRSe5l9I9Gj7NdCLsq1TUccr2gnGibvu9UaAsCUCNmJqBrSW0YUl7+mVND9FFGecBe0="
 }
 ```
 

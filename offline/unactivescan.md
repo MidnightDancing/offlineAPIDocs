@@ -37,15 +37,15 @@
 ```json
 
 {
-	"amount": "1",
-	"orderId": "20180122LDYF00008940",
+	"txnAmt": "1",
+	"orderNo": "20180122LDYF00008940",
 	"goodsId": "goods",
-	"sign": "CBr2Dui55aRxyiUJoWCxckL8lWn7UeBxvAJFsV2hrtFDvVSOp4v4cgUPc1Nk3e1d+oitAhi9b3AAVSoAuEWV0fKKIQRwYTSPTzLbX9fLXq2KE423Km5GW5HWqpN8+guCH1UUpSlNVzVYax9h5D/n2YSWv/g6KWZYye+kEP8K3rA=",
-	"reqTime": "105356",
+	"signature": "CBr2Dui55aRxyiUJoWCxckL8lWn7UeBxvAJFsV2hrtFDvVSOp4v4cgUPc1Nk3e1d+oitAhi9b3AAVSoAuEWV0fKKIQRwYTSPTzLbX9fLXq2KE423Km5GW5HWqpN8+guCH1UUpSlNVzVYax9h5D/n2YSWv/g6KWZYye+kEP8K3rA=",
+	"orderTime": "20180313105356",
 	"merId": "30000064",
-	"payType": "WX",
-	"reqDate": "20180313",
-	"mediaNo": "134919586213926735",
+	"agentId": "Y000000001",
+	"orderType": "wechat",
+	"authCode": "134919586213926735",
 	"goodsInfo": "goods"
 }
 

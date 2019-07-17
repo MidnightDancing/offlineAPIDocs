@@ -43,12 +43,13 @@
 ```json
 {
 	"merId": "30000102",
-	"amount": "9",
-	"payType": "WX",
-	"orderId": "HSAPI1520425994612",
+	"agentId": "Y000000001",
+	"txnAmt": "9",
+	"orderType": "wechatH5",
+	"orderNo": "HSAPI1520425994612",
 	"openId": "122010000151",
-	"appId": "111",
-	"sign": "FI8kw10QzZICpj2xRjsYcmU+HI7oNFm4KaNSPeT4YbmG7izCV4m9jZJQ1gxkny0bt5xY8MZXXtzFeRR5KEyzp2YFYMC0AFjvsd/5HGlE6JxrVKNg/LhIba7aR7WMrX4FtEcmBm4ILMosgVhf665KgGtdHBuCd5qRfAs217iPWd0="
+	"appId": "111211231",
+	"signature": "FI8kw10QzZICpj2xRjsYcmU+HI7oNFm4KaNSPeT4YbmG7izCV4m9jZJQ1gxkny0bt5xY8MZXXtzFeRR5KEyzp2YFYMC0AFjvsd/5HGlE6JxrVKNg/LhIba7aR7WMrX4FtEcmBm4ILMosgVhf665KgGtdHBuCd5qRfAs217iPWd0="
 }
 ```
  **返回参数说明** 
