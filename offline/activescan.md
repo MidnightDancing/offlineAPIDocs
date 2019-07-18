@@ -34,8 +34,8 @@
 ```json
 {
 	"txnAmt": "99999",
-	"merId": "30000102",
-	"agentId": "Y000000001",
+	"acqMerId": "30000102",
+	"acqSpId": "Y000000001",
 	"orderType": "alipay",
 	"orderTime": "20180313105455",
 	"orderNo": "HSAPI1520909695265",

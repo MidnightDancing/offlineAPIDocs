@@ -17,8 +17,8 @@
 
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |:--------:|:--------:|:--------:|:--------:|:--------|
-|	agentId	|	代理商编号	|	8	|	M	|	代理商编号(联动平台分配)	|
-|	merId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
+|	acqSpId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
+|	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	orderNo	|	商户订单号	|	64	|	M	|	原来请求订单号	  |
 |	transactionId	|	联动订单号	|	32	|	O	|	联动优势的订单号，建议优先使用	|
 |	signature	|	签名	|	256	|	M	|	参见签名机制	|
@@ -27,8 +27,8 @@
 
 ```json
 {
-	"merId": "30000102",
-	"agentId": "Y000000001",
+	"acqMerId": "30000102",
+	"acqSpId": "Y000000001",
 	"orderNo": "1509518653211",
 	"signature": "fgJpXQpFKPsLxlNJvFK3MPc5x+GHEQru1Q+69m65358e8WTge9Djv9qT6wkJOijPOESOZNaWM1mDCePA7WaeWwdR9CjjLTzf9gVKmFNcSehTbUl2JW8WSg09dPqkfbZq9SFrg6vGC5HHf/Z9YJF82gtVlzIt4SzwxGx//EzTyPM="
 }
