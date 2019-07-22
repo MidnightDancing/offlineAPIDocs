@@ -3,7 +3,11 @@
     * [1.2数字签名](design/signature.md)
     * [1.3签名验证（java）](design/verification.md)
 * **2.入网相关接口定义**
-    * [2.1商户信息录入](design/protocol.md)
+    * [2.1商户信息录入](offline/protocol.md)
+    * [2.2资质上传接口](offline/qualification.md)
+    * [2.3商户信息查询](offline/patch.md)
+    * [2.4微信参数配置-支付授权目录](offline/jsapiPath.md)
+    * [2.5微信参数配置-子商户appId](offline/subAppid.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
