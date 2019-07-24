@@ -66,6 +66,7 @@
 |	bankCardRateLevel1   	|	银行卡费率一档	|		|	N	|		|
 |	bankCardRateLevel2   	|	银行卡费率二档	|		|	N	|		|
 |	feeRateD0   	|	D0手续费	|	13	|	N	|	费率为0.22%上送0.0022	|
+|	feeRateWithdraw   	|	提现手续费	|	13	|	N	|	单位：分	|
 |	|
 |	bankCardRateLevelA和bankCardRateLevelB格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |

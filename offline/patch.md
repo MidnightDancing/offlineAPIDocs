@@ -62,6 +62,10 @@
 |	merName	|	商户简称	|	16	|	M	|		|
 |	auditStatus	|	审核状态	|	1	|	M	|		|
 |	auditMsg	|	驳回原因	|	64	|	C	|		|
+|	wechatStatus	|	微信报备状态	|	1	|	M	|	参见附件一	|
+|	alipayStatus	|	支付宝报备状态	|	1	|	M	|	参见附件一	|
+|	wechatRetMsg	|	微信报备驳回原因	|	64	|	C	|		|
+|	alipayRetMsg	|	支付宝报备驳回原因	|	64	|	C	|		|
 |			|
 |	paper格式如下：		|
 |	商户基本信息：		|
