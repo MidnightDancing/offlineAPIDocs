@@ -172,7 +172,38 @@ ggIIULxcVDrLZzM2Xl0+aMRKlv4VgoZNw/eRWTHdn2w1YFcuoGjq23AadIezOMftMvYIvJ/m5P5X2z2+
 
 ```
 
-## 1.3.7 注意事项
+## 1.3.7 验签demo
+
+```java
+public static boolean doCheckSign(String object) {
+		Map<String, Object> treeMap = JSON.parseObject(JSON.toJSONString(JSON.parse(object)), TreeMap.class);
+		// 【响应的签名】
+		String signKey = (String) treeMap.get("signature");
+		treeMap.remove("signature");
+		// 【待签明文串】--去除响应签名后获取待签明文串
+		StringBuilder sb = new StringBuilder();
+		for (Entry<String, Object> entry : treeMap.entrySet()) {
+			if (null != treeMap.get(entry.getKey()) && !"".equals(treeMap.get(entry.getKey()))) {
+				sb.append(treeMap.get(entry.getKey())).append("|");
+			}
+		}
+		sb.deleteCharAt(sb.length() - 1);
+		String befSgin = sb.toString();
+		//【验签】
+		boolean signresult = false;
+		try {
+			signresult = SignTools.doCheckSign(certFilePath, serverCertFileName, befSgin, signKey);
+		} catch (Exception e) {
+			System.out.println("验签异常");
+		}
+		//【 验签结果】
+		return signresult;
+	}
+```
+
+
+
+## 1.3.8 注意事项
 
 【1】字段顺序
 
