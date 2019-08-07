@@ -19,9 +19,9 @@
 |	acqSpId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	origOrderNo	|	原单流水号	|	64	|	M	|	原交易的订单号	|
-|	origTxnAmt	|	原单交易金额	|	10	|	M	|	单位:原交易的总金额|
+|	origTxnAmt	|	原单交易金额	|	13	|	M	|	单位:原交易的总金额|
 |	orderNo	|	退款流水号	|	64	|	M	|	本次退货交易的订单号	|
-|	txnAmt	|	退款金额	|	10	|	M	|	本次退货的金额|
+|	txnAmt	|	退款金额	|	13	|	M	|	本次退货的金额|
 |	orderType	|	订单类型	|	12	|	M	|alipay-支付宝 </br> wechat-微信支付 </br> unionpay-银联二维码|
 |	signature	|	签名	|	256	|	M	|参见签名机制	|	|
 
