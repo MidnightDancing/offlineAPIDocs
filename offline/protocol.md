@@ -10,7 +10,7 @@
 
 **请求URL：** 
 
-`{交易服务根地址}/merchant/apply
+`{交易服务根地址}/merchants/apply
   
 **请求方式：**
 
