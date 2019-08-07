@@ -10,7 +10,7 @@
 
 **请求URL：** 
 
-`{交易服务根地址}/merchants/qualification
+`{交易服务根地址}/upload/qualification
   
 **请求方式：**
 
