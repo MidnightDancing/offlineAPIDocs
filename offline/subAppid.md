@@ -9,7 +9,7 @@
 
 **请求URL：** 
 
-`{交易服务根地址}/merchant/wechatConfig/subAppid
+`{交易服务根地址}/merchants/subAppid
   
 **请求方式：**
 

@@ -10,6 +10,7 @@
     * [2.5微信参数配置-子商户appId](offline/subAppid.md)
     * [2.6获取签章验证码](offline/getVerifyCode.md)
     * [2.7验证签章验证码](offline/doVerifyCodeSign.md)
+    * [2.8电子协议下载](offline/queryElectronicAgreement.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
