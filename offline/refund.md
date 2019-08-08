@@ -22,7 +22,7 @@
 |	origTxnAmt	|	原单交易金额	|	13	|	M	|	单位:原交易的总金额|
 |	orderNo	|	退款流水号	|	64	|	M	|	本次退货交易的订单号	|
 |	txnAmt	|	退款金额	|	13	|	M	|	本次退货的金额|
-|	orderType	|	订单类型	|	12	|	M	|alipay-支付宝 </br> wechat-微信支付 </br> unionpay-银联二维码|
+|	orderType	|	订单类型	|	12	|	O	|alipay-支付宝 </br> wechat-微信支付 </br> unionpay-银联二维码|
 |	signature	|	签名	|	256	|	M	|参见签名机制	|	|
 
  **商户请求报文示例**
