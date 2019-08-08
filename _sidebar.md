@@ -8,6 +8,8 @@
     * [2.3商户信息查询](offline/patch.md)
     * [2.4微信参数配置-支付授权目录](offline/jsapiPath.md)
     * [2.5微信参数配置-子商户appId](offline/subAppid.md)
+    * [2.6获取签章验证码](offline/getVerifyCode.md)
+    * [2.7验证签章验证码](offline/doVerifyCodeSign.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
@@ -16,4 +18,7 @@
     * [3.5订单退费](offline/refund.md)
     * [3.6订单退费查询](offline/refundquery.md)
 * **4.基础能力接口定义**
+  
     * [4.1交易结果通知](basicability/notify.md)
+    
+
