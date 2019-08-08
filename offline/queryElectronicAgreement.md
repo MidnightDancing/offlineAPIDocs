@@ -20,8 +20,8 @@
 
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |:--------:|:--------:|:--------:|:--------:|:--------|
+|	acqSpId	|	服务商编号	|	10	|	M	|	服务商编号(联动平台分配)	|
 |	merId	|	报备编号	|	20	|	M	|		|
-|	contType 	|	合同类型	|	8	|	M	|	 	|
 |	signature 	|	签名	|	256	|	M	|	参见签名机制	|
 
 
@@ -31,7 +31,7 @@
 
 {
 	"merId": "30000064",
-	"contType": "ZF01",
+	"acqSpId": "S145871705",
 	"signature": "CBr2Dui55aRxyiUJoWCxckL8lWn7UeBxvAJFsV2hrtFDvVSOp4v4cgUPc1Nk3e1d+oitAhi9b3AAVSoAuEWV0fKKIQRwYTSPTzLbX9fLXq2KE423Km5GW5HWqpN8+guCH1UUpSlNVzVYax9h5D/n2YSWv/g6KWZYye+kEP8K3rA="
 }
 
