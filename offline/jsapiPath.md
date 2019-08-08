@@ -9,7 +9,7 @@
 
 **请求URL：** 
 
-`{交易服务根地址}/merchant/wechatConfig/jsapiPath
+`{交易服务根地址}/merchants/jsapiPath
   
 **请求方式：**
 
