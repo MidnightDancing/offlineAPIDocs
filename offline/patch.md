@@ -9,7 +9,7 @@
 
 **请求URL：** 
 
-`{交易服务根地址}/merchant/query
+`{交易服务根地址}/merchants/queryMerchantInfo
   
 **请求方式：**
 
