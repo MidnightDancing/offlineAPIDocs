@@ -37,6 +37,8 @@
 |	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2时必传	|
 |	openingLicenseAccountPhoto	|	开户许可证	|	settleAccountType=1时必传	|
 |	acquiringAgreementPhoto	|	商户收单协议照片	|		|
+|	signAuthLetterPhoto	|	签约授权书	|		|
+|	businessLicensePhoto	|	 营业执照照片	|		|
 |			|
 |	企业：		|
 |	字段标识	 |	字段含义	  |	备注说明	  |
@@ -47,6 +49,8 @@
 |	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2时必传	|
 |	openingLicenseAccountPhoto	|	开户许可证	|	settleAccountType=1时必传	|
 |	acquiringAgreementPhoto	|	商户收单协议照片	|		|
+|	signAuthLetterPhoto	|	签约授权书	|		|
+|	businessLicensePhoto	|	 营业执照照片	|		|
 |			|
 |	小微：		|
 |	字段标识	 |	字段含义	  |	备注说明	  |
@@ -60,6 +64,7 @@
 |	storeHallPhoto	|	门店内景照	|		|
 |	storeCashierPhoto 	|	门店收银台照	|		|
 |	acquiringAgreementPhoto	|	商户收单协议照片	|		|
+|	signAuthLetterPhoto	|	签约授权书	|		|
 
 
  **商户请求报文示例**
