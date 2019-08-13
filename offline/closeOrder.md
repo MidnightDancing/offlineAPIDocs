@@ -25,7 +25,6 @@
 ```json
 
 {
-    "orderTime": "20190808105455",
 	"acqSpId": "30000102",
 	"acqMerId": "Y000000001",
 	"orderNo": "HSAPI1520425994612",
