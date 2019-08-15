@@ -16,9 +16,10 @@
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
     * [3.3扫码支付-用户主扫](offline/activescan.md)
     * [3.4订单状态同步](offline/apisync.md)
-    * [3.5订单退费](offline/refund.md)
-    * [3.6订单退费查询](offline/refundquery.md)
-    * [3.7订单关闭](offline/closeOrder.md)
+    * [3.5订单撤销](offline/cancel.md)
+    * [3.6订单退费](offline/refund.md)
+    * [3.7订单退费查询](offline/refundquery.md)
+    * [3.8订单关闭](offline/closeOrder.md)
 * **4.基础能力接口定义**
   
     * [4.1交易结果通知](basicability/notify.md)
