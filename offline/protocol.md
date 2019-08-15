@@ -51,10 +51,11 @@
 |	serviceTel	|	客服电话	|	12	|	Y	|		|
 |	email	|	邮箱	|	64	|	Y	|		|
 |	签约信息：		|
-|	signPerson	|	签约人姓名	 |	32	|	M	|		|
-|	signPhone	|	签约人手机号	 |	11     |	M	|		|
+|	signName	|	签约人姓名	 |	32	|	M	|		|
+|	signMobileNo	|	签约人手机号	 |	11     |	M	|		|
+|	signCertNo	|	签约人身份证号	 |	18     |	M	|		|
 |	appName		|	APP名称 	    |	   32	  |	M	|		|
-|	webSiteAddress	|	商户网址	  |	256	|	M	|		|
+|	webSite		|	商户网址	  |	256	|	M	|		|
 |	结算账户信息：		|
 |	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户 merFlag=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	Y	|		|
