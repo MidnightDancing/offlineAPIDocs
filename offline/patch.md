@@ -51,7 +51,6 @@
 |--------|-------|--------|--------|--------|
 |	respCode	|	返回码	|	8	|	M	|	返回码	|
 |	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
-|	acqSpId	|	服务商编号	|	10	|	M	|	服务商编号(联动平台分配)	|
 |	merId 	|	报备编号	|	17	|	C	|		|
 |	acqMerId 	|	商户编号	|	8	|	C	|		|
 |	merchantName	|	商户简称	|	16	|	M	|	商户交易显示名称	|
@@ -59,7 +58,6 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	merName	|	商户简称	|	16	|	M	|		|
 |	auditStatus	|	审核状态	|	1	|	M	|		|
 |	auditMsg	|	驳回原因	|	64	|	C	|		|
 |	wechatStatus	|	微信报备状态	|	1	|	M	|	参见附件一	|
