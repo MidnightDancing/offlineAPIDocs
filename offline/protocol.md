@@ -48,6 +48,7 @@
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merFlag= 1、2必传	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
+|	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
 |	contactPhone	|	联系人手机号	|	11	|	Y	|		|
 |	serviceTel	|	客服电话	|	12	|	Y	|		|
 |	email	|	邮箱	|	64	|	Y	|		|
