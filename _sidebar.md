@@ -24,6 +24,6 @@
   
     * [4.1交易结果通知](basicability/notify.md)
     * [4.2对账文件下载](basicability/downfile.md)
-	 * [4.3对账文件](basicability/checkfile.md)
+    * [4.3对账文件](basicability/checkfile.md)
     
 
