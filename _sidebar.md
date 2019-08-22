@@ -22,7 +22,7 @@
     * [3.8订单关闭](offline/closeOrder.md)
 * **4.基础能力接口定义**
   
-    * [4.1交易结果通知](basicability/notify.md)
+    * [4.1开户审核结果通知](basicability/notify.md)
     * [4.2对账文件下载](basicability/downfile.md)
     * [4.3对账文件](basicability/checkfile.md)
     
