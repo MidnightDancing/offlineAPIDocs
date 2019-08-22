@@ -63,7 +63,7 @@
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	Y	|		|
-|	openBank	|	开户银行名称	|	4	|	Y	|	参见附件二	|
+|	openBank	|	开户银行名称	|	4	|	N	|		|
 |	openSubBank	|	开户支行名称	|	64	|	Y	|		|
 |	|
 |	rate格式如下：		|
