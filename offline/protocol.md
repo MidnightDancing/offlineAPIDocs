@@ -47,8 +47,8 @@
 |	lawyerName	|	法人姓名	|	32	|	C	|	merFlag= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merFlag= 1、2必传	|
-|	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传	|
-|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传	|
+|	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传 Ex:20190101	|
+|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传 Ex:20390101或永久	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
@@ -67,8 +67,8 @@
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	Y	|		|
-|	settleIdEffective|	身份证生效日期	|	8	|	Y	|		|
-|	settleIdExpired	 |	身份证失效日期	|	8	|	Y	|		|
+|	settleIdEffective|	身份证生效日期	|	8	|	Y	|	Ex:20190101	|
+|	settleIdExpired	 |	身份证失效日期	|	8	|	Y	|	Ex:20390101或永久	|
 |	openBank	|	开户银行名称	|	4	|	N	|		|
 |	openSubBank	|	开户支行名称	|	64	|	Y	|		|
 |	|
