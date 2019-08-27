@@ -35,7 +35,7 @@
 |	merchantType	|	商户类型	|	1	|	M	|	1:个体 2:企业 3:小微	|
 |	businessLicenseCode	|	营业执照编号	|	32	|	C	|	merFlag= 1、2必传	|
 |	businessLicenseName	|	商户经营名称	|	64	|	C	|	merFlag= 1、2必传	|
-|	businessLicenseExpired	|	营业执照开始日期	|	8	|	C	|	merFlag= 1、2必传	|
+|	businessLicenseEffective	|	营业执照开始日期	|	8	|	C	|	merFlag= 1、2必传	|
 |	businessLicenseExpired	|	营业执照结束日期	|	8	|	C	|	merFlag= 1、2必传	|
 |	industryCategoryId	|	经营类目	|	4	|	M	|	参见附件一	|
 |	商户基本信息：		|
