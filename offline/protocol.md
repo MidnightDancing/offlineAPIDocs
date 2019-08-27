@@ -62,7 +62,7 @@
 |	appName		|	APP名称 	    |	   32	  |	M	|		|
 |	webSite		|	商户网址	  |	256	|	M	|		|
 |	结算账户信息：		|
-|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户<br>merFlag=3时必填2	|
+|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	Y	|		|
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
