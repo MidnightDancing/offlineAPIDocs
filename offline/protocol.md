@@ -35,8 +35,8 @@
 |	merchantType	|	商户类型	|	1	|	M	|	1:个体 2:企业 3:小微	|
 |	businessLicenseCode	|	营业执照编号	|	32	|	C	|	merFlag= 1、2必传	|
 |	businessLicenseName	|	商户经营名称	|	64	|	C	|	merFlag= 1、2必传	|
-|	businessLicenseEffective	|	营业执照开始日期	|	8	|	C	|	merFlag= 1、2必传	|
-|	businessLicenseExpired	|	营业执照结束日期	|	8	|	C	|	merFlag= 1、2必传	|
+|	businessLicenseEffective|	营业执照生效日期	|	8	|	C	|	merFlag= 1、2必传	|
+|	businessLicenseExpired	|	营业执照失效日期	|	8	|	C	|	merFlag= 1、2必传	|
 |	industryCategoryId	|	经营类目	|	4	|	M	|	参见附件一	|
 |	商户基本信息：		|
 |	businessAddress	|	所属地址详细地址	|	256	|	M	|		|
@@ -47,6 +47,8 @@
 |	lawyerName	|	法人姓名	|	32	|	C	|	merFlag= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merFlag= 1、2必传	|
+|	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传	|
+|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
