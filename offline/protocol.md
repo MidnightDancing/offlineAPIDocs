@@ -47,8 +47,8 @@
 |	lawyerName	|	法人姓名	|	32	|	C	|	merFlag= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merFlag= 1、2必传	|
-|	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传 Ex:20190101	|
-|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传 <br>Ex:20390101或永久	|
+|	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传<br>Ex:20190101	|
+|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传<br>Ex:20390101或永久	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
@@ -62,7 +62,7 @@
 |	appName		|	APP名称 	    |	   32	  |	M	|		|
 |	webSite		|	商户网址	  |	256	|	M	|		|
 |	结算账户信息：		|
-|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户 merFlag=3时必填2	|
+|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户<br>merFlag=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	Y	|		|
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
