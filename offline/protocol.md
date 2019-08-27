@@ -62,11 +62,13 @@
 |	appName		|	APP名称 	    |	   32	  |	M	|		|
 |	webSite		|	商户网址	  |	256	|	M	|		|
 |	结算账户信息：		|
-|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户 merFlag=3时必填2	|
+|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户 merFlag=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	Y	|		|
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	Y	|		|
+|	settleIdEffective|	身份证生效日期	|	8	|	Y	|		|
+|	settleIdExpired	 |	身份证失效日期	|	8	|	Y	|		|
 |	openBank	|	开户银行名称	|	4	|	N	|		|
 |	openSubBank	|	开户支行名称	|	64	|	Y	|		|
 |	|
