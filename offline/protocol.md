@@ -48,7 +48,8 @@
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merFlag= 1、2必传	|
 |	certNoEffective	|	证件生效日期|	8	|	C	|	merFlag= 1、2必传 Ex:20190101	|
-|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传 Ex:20390101或永久	|
+|	certNoExpired	|	证件失效日期|	8	|	C	|	merFlag= 1、2必传 
+Ex:20390101或永久	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
