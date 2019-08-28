@@ -102,8 +102,6 @@
 |	settleAccount	|	结算户名	|	256	|	Y	|		|
 |	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	Y	|		|
-|	settleIdEffective|	身份证生效日期	|	8	|	Y	|		|
-|	settleIdExpired	|	身份证失效日期	|	8	|	Y	|		|
 |	openBank	|	开户银行名称	|	4	|	Y	|	参见附件二	|
 |	openSubBank	|	开户支行名称	|	64	|	Y	|		|
 |	|
