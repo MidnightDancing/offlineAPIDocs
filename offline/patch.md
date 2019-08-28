@@ -83,8 +83,8 @@
 |	lawyerName	|	法人姓名	|	32	|	C	|	merchantType= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merchantType= 1、2必传	|
-|	certNoEffective	|	证件生效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人法人证件有效日期	|
-|	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人法人证件失效日期	|
+|	certNoEffective	|	证件生效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人证件有效日期	|
+|	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	Y	|		|
 |	contactPhone	|	联系人手机号	|	11	|	Y	|		|
