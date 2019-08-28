@@ -27,7 +27,7 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	backUrl	|	回调通知地址	|	200	|	Y	|	商户入网成功回调地址	|
+|	backUrl	|	回调通知地址	|	200	|	M	|	商户入网成功回调地址	|
 |	|
 |	paper格式如下：		|
 |	商户基本信息：		|
@@ -50,11 +50,11 @@
 |	certNoEffective	|	法人证件生效日期|	8	|	C	|	merchantType= 1、2必传<br>Ex:20190101	|
 |	certNoExpired	|	法人证件失效日期|	8	|	C	|	merchantType= 1、2必传<br>Ex:20390101或永久	|
 |	联系人信息：		|
-|	contactPerson	|	联系人姓名	|	32	|	Y	|		|
-|	contactPersonId	|	联系人身份证号	|	18	|	Y	|		|
-|	contactPhone	|	联系人手机号	|	11	|	Y	|		|
-|	serviceTel	|	客服电话	|	12	|	Y	|		|
-|	email	|	邮箱	|	64	|	Y	|		|
+|	contactPerson	|	联系人姓名	|	32	|	M	|		|
+|	contactPersonId	|	联系人身份证号	|	18	|	M	|		|
+|	contactPhone	|	联系人手机号	|	11	|	M	|		|
+|	serviceTel	|	客服电话	|	12	|	M	|		|
+|	email	|	邮箱	|	64	|	M	|		|
 |	签约信息：		|
 |	signName	|	签约人姓名	 |	32	|	M	|		|
 |	signMobileNo	|	签约人手机号	 |	11     |	M	|		|
@@ -62,15 +62,15 @@
 |	appName		|	APP名称 	    |	   32	  |	M	|		|
 |	webSite		|	商户网址	  |	256	|	M	|		|
 |	结算账户信息：		|
-|	settleAccountType	|	结算账户类型	|	1	|	Y	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
-|	settleAccountNo	|	结算账号	|	30	|	Y	|		|
-|	settleAccount	|	结算户名	|	256	|	Y	|		|
-|	settlePeriod	|	结算周期	|	1	|	Y	|	1:T1 2:D0 3:T0 4:D1	|
-|	settleIdNo	|	身份证号	|	18	|	Y	|		|
-|	settleIdEffective|	身份证生效日期	|	8	|	Y	|	Ex:20190101	|
-|	settleIdExpired	 |	身份证失效日期	|	8	|	Y	|	Ex:20390101或永久	|
+|	settleAccountType	|	结算账户类型	|	1	|	M	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
+|	settleAccountNo	|	结算账号	|	30	|	M	|		|
+|	settleAccount	|	结算户名	|	256	|	M	|		|
+|	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	|
+|	settleIdNo	|	身份证号	|	18	|	M	|		|
+|	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
+|	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
 |	openBank	|	开户银行名称	|	4	|	N	|		|
-|	openSubBank	|	开户支行名称	|	64	|	Y	|		|
+|	openSubBank	|	开户支行名称	|	64	|	M	|		|
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
