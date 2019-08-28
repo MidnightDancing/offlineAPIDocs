@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.umpay.merinfo.WxSubAppidConfigAPITest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.umpay.merinfo.WxSubAppidConfigAPITest
+queryOrder(com.umpay.merinfo.WxSubAppidConfigAPITest)  Time elapsed: 0 s  <<< ERROR!
+java.io.FileNotFoundException: File 'cert\testSpay.key.p8' does not exist
+	at com.umpay.merinfo.WxSubAppidConfigAPITest.queryOrder(WxSubAppidConfigAPITest.java:33)
+

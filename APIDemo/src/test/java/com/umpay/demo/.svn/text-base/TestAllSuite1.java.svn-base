@@ -1,0 +1,49 @@
+package com.umpay.demo;
+
+import java.util.HashMap;
+import java.util.Map;
+import junit.framework.Test;
+import junit.framework.TestSuite;
+
+public class TestAllSuite1 extends BaseTestSuite{
+
+	/*	public static Test suite() {
+		TestSuite suite = new TestSuite();
+		suite.
+		
+		//suite.addTest(new JUnit4TestAdapter(AddMerInfoAPI.class));
+		
+		TestSetup wrapper = new TestSetup(suite) {
+			@Before
+			protected void setUp() throws Exception {
+				oneTimeSetUp();
+			}
+
+			@After
+			protected void tearDown() throws Exception {
+				oneTimeTearDown();
+			}
+		};
+		return wrapper;
+	}
+
+	protected static void oneTimeSetUp() {
+	}
+
+	protected static void oneTimeTearDown() {
+
+	}*/
+	public static Test suite() throws Exception {
+	
+		TestSuite suite = new TestSuite("开始执行全部测试用例！！！");
+		//组装要测试的测试类
+		Map<Class<?>, String> suiteMap = new HashMap<Class<?>, String>();
+		suiteMap.put(com.umpay.merinfo.AddMerInfoAPITest.class, "allrun");
+		suite = getTestSuite(suite,suiteMap);
+		return suite;
+		
+		
+	}
+	
+	
+}

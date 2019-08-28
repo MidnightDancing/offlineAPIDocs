@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert
+END
+umpayPublic.cert.crt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert/umpayPublic.cert.crt
+END
+52593_.key.p8
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert/52593_.key.p8
+END
+testUmpay.cert.crt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert/testUmpay.cert.crt
+END
+merPrivate.key.p8
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert/merPrivate.key.p8
+END
+testSpay.key.p8
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/shoudan/!svn/ver/19007/doc/ClientOKOK/ServiceProviderPlatform/cert/testSpay.key.p8
+END

@@ -1,0 +1,12 @@
+package com.umpay.demo;
+import org.junit.runner.*;
+import org.junit.runners.Suite;
+import com.umpay.merinfo.AddMerInfoAPITest;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+	AddMerInfoAPITest.class
+})
+public class TestAllSuite2 {
+
+}

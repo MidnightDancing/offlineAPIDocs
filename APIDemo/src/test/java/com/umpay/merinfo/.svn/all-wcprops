@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo
+END
+UploadImageAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/UploadImageAPI.java
+END
+ImageUploadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/shoudan/!svn/ver/19008/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/ImageUploadTest.java
+END
+WxPayPathConfigAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/WxPayPathConfigAPI.java
+END
+SignTestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/shoudan/!svn/ver/19008/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/SignTestAPI.java
+END
+WxSubAppidConfigAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/WxSubAppidConfigAPI.java
+END
+MerInfoQueryAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/MerInfoQueryAPI.java
+END
+AddMerInfoAPITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/shoudan/!svn/ver/19012/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/AddMerInfoAPITest.java
+END
+QueryElectronicAgreementAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/shoudan/!svn/ver/19008/doc/ClientOKOK/ServiceProviderPlatform/src/test/java/com/umpay/merinfo/QueryElectronicAgreementAPI.java
+END
