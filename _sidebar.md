@@ -1,7 +1,5 @@
 * **1.对外接口设计**
-    * [1.1协议](design/protocol.md)
-    * [1.2数字签名](design/signature.md)
-    * [1.3签名验证（java）](design/verification.md)
+    * [1.1签名验证（java）](design/verification.md)
 * **2.入网相关接口定义**
     * [2.1商户信息录入](offline/protocol.md)
     * [2.2资质上传接口](offline/qualification.md)
@@ -21,7 +19,6 @@
     * [3.7订单退费查询](offline/refundquery.md)
     * [3.8订单关闭](offline/closeOrder.md)
 * **4.基础能力接口定义**
-  
     * [4.1开户审核结果通知](basicability/notify.md)
     * [4.2对账文件下载](basicability/downfile.md)
     * [4.3对账文件](basicability/checkfile.md)
