@@ -1,6 +1,7 @@
 * **1.文档说明**
     * [1.1阅读对象](public/readObject.md)
-    * [1.2签名验证（java）](public/verification.md)
+    * [1.2接入步骤](public/accessSteps.md)
+    * [1.3签名验证（java）](public/verification.md)
 * **2.入网相关接口定义**
     * [2.1商户信息录入](offline/protocol.md)
     * [2.2资质上传接口](offline/qualification.md)
