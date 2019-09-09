@@ -32,7 +32,7 @@
 |dctGoodsInfo| 单品优惠信息 |  128 |  C   |                          |
 |transactionId|第三方支付订单号|32 |  C   |                          |
 |bankType  |   付款银行     |   16 |  C   |                          |
-|CardType  |   银行卡类型   |  2   |  C   |01 – 借记卡；02 – 贷记卡  |
+|cardType  |   银行卡类型   |  2   |  C   |01 – 借记卡；02 – 贷记卡  |
 
  **商户请求报文示例**
 
@@ -52,7 +52,7 @@
 	"dctGoodsInfo": "",
 	"transactionId": "",
 	"bankType": "",
-	"CardType": ""
+	"cardType": ""
 }
 ```
 
