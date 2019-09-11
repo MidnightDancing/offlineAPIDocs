@@ -1,15 +1,15 @@
 * **1.文档说明**
     * [1.1阅读对象](public/readObject.md)
     * [1.2接入步骤](public/accessSteps.md)
-    * [1.3签名验证（java）](public/verification.md)
+    * [1.3报文签名验签规则(重要)](public/verification.md)
 * **2.入网相关接口定义**
-    * [2.1商户信息录入](offline/protocol.md)
-    * [2.2资质上传接口](offline/qualification.md)
+    * [2.1商户入网](offline/protocol.md)
+    * [2.2商户资质上传](offline/qualification.md)
     * [2.3商户信息查询](offline/patch.md)
     * [2.4微信参数配置-支付授权目录](offline/jsapiPath.md)
     * [2.5微信参数配置-子商户appId](offline/subAppid.md)
-    * [2.6获取电子签约挑战码](offline/getVerifyCode.md)
-    * [2.7电子签约确认](offline/doVerifyCodeSign.md)
+    * [2.6请求电子协议挑战码](offline/getVerifyCode.md)
+    * [2.7签订电子协议](offline/doVerifyCodeSign.md)
     * [2.8电子协议下载](offline/queryElectronicAgreement.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
@@ -20,9 +20,9 @@
     * [3.6订单退费](offline/refund.md)
     * [3.7订单退费查询](offline/refundquery.md)
     * [3.8订单关闭](offline/closeOrder.md)
-* **4.基础能力接口定义**
+    * [3.9对账文件下载](offline/downfile.md)
+    * [3.10对账文件](offline/checkfile.md)
+* **4.回调通知接口定义**
     * [4.1开户审核结果通知](basicability/notify.md)
-    * [4.2对账文件下载](basicability/downfile.md)
-    * [4.3对账文件](basicability/checkfile.md)
-    * [4.4交易结果通知](basicability/tradenotify.md)
+    * [4.2交易结果通知](basicability/tradenotify.md)
 
