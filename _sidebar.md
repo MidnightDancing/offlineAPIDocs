@@ -1,7 +1,7 @@
 * **1.文档说明**
     * [1.1阅读对象](public/readObject.md)
     * [1.2接入步骤](public/accessSteps.md)
-    * [1.3报文签名验签规则(重要)](public/verification.md)
+    * [1.3报文格式说明及签名验签规则(重要)](public/verification.md)
 * **2.入网相关接口定义**
     * [2.1商户入网](offline/protocol.md)
     * [2.2商户资质上传](offline/qualification.md)
