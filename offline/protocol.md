@@ -74,18 +74,18 @@
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	feeRateAlipay 	|	支付宝费率	|	13	|	N	|	费率为0.22%上送0.22	|
-|	feeRateWechatpay  	|	微信费率	|	13	|	N	|	费率为0.22%上送0.22	|
+|	feeRateAlipay 	|	支付宝费率	|	13	|	N	|	费率为0.25%上送0.25	|
+|	feeRateWechatpay  	|	微信费率	|	13	|	N	|	费率为0.25%上送0.25	|
 |	bankCardRateLevel1   	|	银行卡费率一档	|		|	N	|		|
 |	bankCardRateLevel2   	|	银行卡费率二档	|		|	N	|		|
-|	feeRateD0   	|	D0手续费	|	13	|	N	|	费率为0.22%上送0.22	|
+|	feeRateD0   	|	D0手续费	|	13	|	N	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	N	|	单位：分	|
 |	|
 |	bankCardRateLevelA和bankCardRateLevelB格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	N	|	费率为0.22%上送0.22	|
+|	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	N	|	费率为0.25%上送0.25	|
 |	feeRateUnionpayDebitCap    	|	银联手续费率(借记封顶)	|	13	|	C	|	二挡必填，单位：分|
-|	feeRateUnionpayCredit    	|	银联手续费率(贷记)	|	13	|	N	|	费率为0.22%上送0.22	|
+|	feeRateUnionpayCredit    	|	银联手续费率(贷记)	|	13	|	N	|	费率为0.25%上送0.25	|
 
 
  **商户请求报文示例**
