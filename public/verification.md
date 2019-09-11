@@ -1,5 +1,7 @@
-# 签名验证（java）
+# 报文格式说明及签名验签规则（java）
 
+    **您只需花五分钟时间，详细阅读本文档，可以节省1~10小时的联调时间。**
+    
 ## 1.3.1综述
 
 ​		平台采用java语言开发，信息交互采用HTTP协议，以json格式进行交互，基于（SHA1withRSA）的算法保障信息交互安全性。
@@ -145,7 +147,7 @@ ggIIULxcVDrLZzM2Xl0+aMRKlv4VgoZNw/eRWTHdn2w1YFcuoGjq23AadIezOMftMvYIvJ/m5P5X2z2+
 ## 1.3.6 加签demo示例
 
 ```java
-		TreeMap<String, Object> reqMap =new TreeMap<String, Object>();
+		TreeMap<String, Object> reqMap = new TreeMap<String, Object>();
 		reqMap.put("orderNo","12345678987654321");
 		reqMap.put("orderTime","20190725141912");
 		reqMap.put("orderType","alipay");
