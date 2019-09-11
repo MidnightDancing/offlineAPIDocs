@@ -3,7 +3,7 @@
     * [1.2接入步骤](public/accessSteps.md)
     * [1.3报文格式说明及签名验签规则(重要)](public/verification.md)
 * **2.入网相关接口定义**
-    * [2.1商户入网](offline/protocol.md)
+    * [2.1请求商户入网](offline/protocol.md)
     * [2.2商户资质上传](offline/qualification.md)
     * [2.3商户信息查询](offline/patch.md)
     * [2.4微信参数配置-支付授权目录](offline/jsapiPath.md)
@@ -23,6 +23,6 @@
     * [3.9对账文件下载](offline/downfile.md)
     * [3.10对账文件](offline/checkfile.md)
 * **4.回调通知接口定义**
-    * [4.1开户审核结果通知](basicability/notify.md)
+    * [4.1商户入网审核结果通知](basicability/notify.md)
     * [4.2交易结果通知](basicability/tradenotify.md)
 
