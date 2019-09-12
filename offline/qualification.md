@@ -45,7 +45,6 @@
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|
 |	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|
 |	businessLicensePhoto	|	 营业执照照片	|		|
-|	businessLicensePhoto	|	 	|		|
 |			|
 |	小微：		|
 |	字段标识	 |	字段含义	  |	备注说明	  |
