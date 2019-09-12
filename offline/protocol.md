@@ -51,7 +51,7 @@
 |	serviceTel	|	客服电话	|	12	|	M	|		|
 |	email	|	邮箱	|	64	|	M	|		|
 |	签约信息：	
-|	signType	|	签约协议类型	 |	1	|	M	|		| 0:纸质协议 1:电子签章协议
+|	signType	|	签约协议类型	 |	1	|	M	|		| 0:纸质协议 1:电子签章协议|
 |	signName	|	签约人姓名	 |	32	|	M	|		|
 |	signMobileNo	|	签约人手机号	 |	11     |	M	|		|
 |	signCertNo	|	签约人身份证号	 |	18     |	M	|		|
