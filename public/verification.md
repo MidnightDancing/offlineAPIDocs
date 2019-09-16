@@ -218,3 +218,7 @@ public static boolean doCheckSign(String object) {
 
 如果缺少必传字段，验签会失败
 
+【4】嵌套json
+
+对于嵌套json字段，采用map嵌套map存放后转json
+
