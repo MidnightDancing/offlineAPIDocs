@@ -22,7 +22,7 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	backUrl	|	回调通知地址	|	200	|	N	|	商户入网成功回调地址	|
+|	backUrl	|	回调通知地址	|	200	|	O	|	商户入网成功回调地址	|
 |	|
 |	paper格式如下：		|
 |	商户基本信息：		|
@@ -37,7 +37,7 @@
 |	businessAddress	|	所属地址详细地址	|	256	|	M	|		|
 |	province	|	所属地址省	|	4	|	M	|		|
 |	city	|	所属地址市	|	4	|	M	|		|
-|	area	|	所属地址区	|	4	|	M	|	merchantType= 1、2必传	|
+|	area	|	所属地址区	|	4	|	M	|		|
 |	法人资料信息：		|
 |	lawyerName	|	法人姓名	|	32	|	C	|	merchantType= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
