@@ -51,7 +51,7 @@
 |	serviceTel	|	客服电话	|	12	|	M	|		|
 |	email	|	邮箱	|	64	|	M	|		|
 |	签约信息：	
-|	signType	|	签约协议类型	 |	1	|	C	| 0:纸质协议 1:电子签章协议,默认为电子签章协议	| 
+|	signType	|	签约协议类型	 |	1	|	O	| 0:纸质协议 1:电子签章协议,默认为电子签章协议	| 
 |	signName	|	签约人姓名	 |	32	|	C	|	电子签章协议需要必填	|
 |	signMobileNo	|	签约人手机号	 |	11     |	C	|	电子签章协议需要必填	|
 |	signCertNo	|	签约人身份证号	 |	18     |	C	|	电子签章协议需要必填	|
@@ -70,18 +70,18 @@
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	feeRateAlipay 	|	支付宝费率	|	13	|	N	|	费率为0.25%上送0.25	|
-|	feeRateWechatpay  	|	微信费率	|	13	|	N	|	费率为0.25%上送0.25	|
-|	bankCardRateLevel1   	|	银行卡费率一档	|		|	N	|		|
-|	bankCardRateLevel2   	|	银行卡费率二档	|		|	N	|		|
-|	feeRateD0   	|	D0手续费	|	13	|	N	|	费率为0.25%上送0.25	|
-|	feeRateWithdraw   	|	提现手续费	|	13	|	N	|	单位：分	|
+|	feeRateAlipay 	|	支付宝费率	|	13	|	C	|	费率为0.25%上送0.25	|
+|	feeRateWechatpay  	|	微信费率	|	13	|	C	|	费率为0.25%上送0.25	|
+|	bankCardRateLevel1   	|	银行卡费率一档	|		|	C	|		|
+|	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|		|
+|	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
+|	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	|
 |	bankCardRateLevelA和bankCardRateLevelB格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	N	|	费率为0.25%上送0.25	|
+|	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateUnionpayDebitCap    	|	银联手续费率(借记封顶)	|	13	|	C	|	二挡必填，单位：分|
-|	feeRateUnionpayCredit    	|	银联手续费率(贷记)	|	13	|	N	|	费率为0.25%上送0.25	|
+|	feeRateUnionpayCredit    	|	银联手续费率(贷记)	|	13	|	C	|	费率为0.25%上送0.25	|
 
 
  **商户请求报文示例**
