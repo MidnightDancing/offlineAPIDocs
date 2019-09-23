@@ -40,7 +40,7 @@
 |	area	|	所属地址区	|	4	|	M	|		|
 |	法人资料信息：		|
 |	lawyerName	|	法人姓名	|	32	|	C	|	merchantType= 1、2必传	|
-|	lawyerCertType	|	法人证件类型	|	1	|	C	|	1：身份证	|
+|	lawyerCertType	|	法人证件类型	|	1	|	C	|	merchantType= 1、2必传，1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merchantType= 1、2必传	|
 |	certNoEffective	|	法人证件生效日期|	8	|	C	|	merchantType= 1、2必传<br>Ex:20190101	|
 |	certNoExpired	|	法人证件失效日期|	8	|	C	|	merchantType= 1、2必传<br>Ex:20390101或永久	|
