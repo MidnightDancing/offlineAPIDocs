@@ -51,12 +51,12 @@
 |	serviceTel	|	客服电话	|	12	|	M	|		|
 |	email	|	邮箱	|	64	|	M	|		|
 |	签约信息：	
-|	signType	|	签约协议类型	 |	1	|	M	|0:纸质协议 1:电子签章协议	| 
-|	signName	|	签约人姓名	 |	32	|	M	|		|
-|	signMobileNo	|	签约人手机号	 |	11     |	M	|		|
-|	signCertNo	|	签约人身份证号	 |	18     |	M	|		|
-|	appName		|	APP名称 	    |	   32	  |	M	|		|
-|	webSite		|	商户网址	  |	256	|	M	|		|
+|	signType	|	签约协议类型	 |	1	|	C	| 0:纸质协议 1:电子签章协议,默认为电子签章协议	| 
+|	signName	|	签约人姓名	 |	32	|	C	|	电子签章协议需要必填	|
+|	signMobileNo	|	签约人手机号	 |	11     |	C	|	电子签章协议需要必填	|
+|	signCertNo	|	签约人身份证号	 |	18     |	C	|	电子签章协议需要必填	|
+|	appName		|	APP名称 	    |	   32	  |	C	|	appName和webSite任选其一,电子签章协议需要必填	|
+|	webSite		|	商户网址	  |	256	|	C	|	appName和webSite任选其一,电子签章协议需要必填	|
 |	结算账户信息：		|
 |	settleAccountType	|	结算账户类型	|	1	|	M	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	M	|		|
