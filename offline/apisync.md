@@ -24,10 +24,10 @@
 
 ```json
 {
-	"acqMerId": "30000102",
-	"acqSpId": "Y000000001",
-	"orderNo": "1509518653211",
-	"signature": "fgJpXQpFKPsLxlNJvFK3MPc5x+GHEQru1Q+69m65358e8WTge9Djv9qT6wkJOijPOESOZNaWM1mDCePA7WaeWwdR9CjjLTzf9gVKmFNcSehTbUl2JW8WSg09dPqkfbZq9SFrg6vGC5HHf/Z9YJF82gtVlzIt4SzwxGx//EzTyPM="
+	"acqMerId": "41509208",
+	"acqSpId": "Y471790403",
+	"orderNo": "JD201909250317100002",
+	"signature": "A973LB9jCo30ckA6ILL2hChhdUbt4krFoJlcFNufox7RN22Hmujey75bbvR6MQ/1U3q/Um/ivCaD45U3+xvka53gHnQPvz7q0d+R+RXA7BYdwnTjFgk883AjvMi5EM75ivHZA2Fua3SWDmSTTrlPGfEGxkqfaMnThLsYZYzri0U="
 }
 ```
 
@@ -40,10 +40,13 @@
 |	origRespCode	|	交易状态	|		|	C	| 00—明确支付成功 <br>01—转入退款 <br>02—交易结果未明 <br> 03- 已关闭 <br> 04- 已撤销(付款码支付) <br>06--明确支付失败(其他原因，如银行返回失败) |
 |	origRespDescMsg	|	交易详细状态码	|	|	C	| 支付成功(0) <br>支付失败(1) <br>被撤销(2)<br>被退货(3)<br>被冲正(4)<br>被确认(5)<br>支付中(6)<br>无交易(7)<br>未明(8)<br>异常(9)<br>其他(99)<br>订单关闭(98)<br> |
 |	platDate	|	平台日期	|		|	M	|	平台日期   |
+|	payTime	|	交易时间	|	|	C	|	交易时间  格式：MMDDhhmmss |
 |	txnAmt	|	订单金额	|		|	C	|	订单金额 (打印小票使用)	|
 |	paySeq	|	支付流水号	|		|	C	|	支付流水号，成功返回	|
 |	transactionId	|	联动流水号	|	32	|	M	|	联动优势的流水号|
 |	signature	|	签名	|	256	|	M	|	参见签名机制	|
+|	depBankSeq	|	第三方流水号	|		|	O	|	第三方流水号（微信/支付宝/银联的交易流水号）	|
+|	isClosed	|	订单关闭标识	|		|	O	|	订单关闭标识（版本过期字段，不建议使用，后期删除）	|
 
  **返回报文示例**
 
@@ -51,13 +54,16 @@
 {
     "respCode": "00",
     "respMsg": "处理成功",
-    "signature": "IHOSV/kVhDCVnSLhGSklvsg8UhCG5sxHPv3zzpm6BferBiHccp1i+LHPe0OP2ZVoTrIVf39ihYTTNmAoezUpz6UwXcLD9/0rwt0UjsDSpM4K3diYnzQsLCp0g/Gde14TypB7gxyxLnC5EKDmPYecH+hIKctVTz1WlM+fbemItvw=",
-    "platDate": "",
+    "signature": "lkD1PuEv/tb+f1JNWRAC8EHIStWi/smtpCZBXRYwbHJsO4Rt+wzNMtal4apAqvQqH8hVgJLJF7OxLby4pwTdfcbAfuOJQ8MR4K8oWoBXkeLIFKQJhSda3qqxHtZBVz5d0OGsqxgdNs0oSIC44W5Ep2TXkTGcopDfi8K+mi2v5es=",
+    "platDate": "20190925",
+    "payTime": "0925152411",
     "txnAmt": 1,
-    "paySeq": "",
-    "transactionId": "2019072914580000000036",
+    "paySeq": "9268151710507213",
+    "transactionId": "2019092515170000002850",
     "origRespCode": "00",
-    "origRespDescMsg": "支付成功"
+    "origRespDescMsg": "支付成功",
+    "isClosed": "",
+    "depBankSeq": "4200000395201909251384927907"
 }
 ```
 
