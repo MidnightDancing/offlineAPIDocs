@@ -173,6 +173,41 @@ ggIIULxcVDrLZzM2Xl0+aMRKlv4VgoZNw/eRWTHdn2w1YFcuoGjq23AadIezOMftMvYIvJ/m5P5X2z2+
 
 ```
 
+## 1.3.6.2 加签demo示例（数据嵌套）
+
+```java
+		TreeMap<String, Object> reqMer = new TreeMap<String, Object>();
+		TreeMap<String, Object> reqRate = new TreeMap<String, Object>();
+		TreeMap<String, Object> reqbankCardRateLevel1 = new TreeMap<String, Object>();
+		reqMer.put("acqSpId", EnvConfig.acqSpId);
+		reqMer.put("merchantName", "自然人测试商户2");
+		reqMer.put("rate", reqRate);
+		reqMer.put("wechatChannelId", "208493420");
+		reqMer.put("alipayChannelId", "2088901023449763");
+
+		//rate
+		reqRate.put("feeRateAlipay", "0.51");	
+		reqRate.put("feeRateWechatpay", "0.52");
+		reqRate.put("bankCardRateLevel1", reqbankCardRateLevel1);
+		
+		//bankCardRateLevel1
+		reqbankCardRateLevel1.put("feeRateUnionpayDebit", "0.50");
+		reqbankCardRateLevel1.put("feeRateUnionpayDebitCap", "2000");
+		reqbankCardRateLevel1.put("feeRateUnionpayCredit", "0.52");
+		
+	    reqMap.remove("signature");
+		//获取原请求签名
+	    String signStr	= new StringBuilder(reqMap.toString().replace(", ", "&").replace("{", "").replace("}", "")).toString();
+		// 验签
+		//【待签名明文串】--signStr
+		String sign = CertUtils.sign(signStr, CertUtils.getPrivateKey("D:/test.key.p8"),"UTF-8");
+		//【签名密文串】--sign
+		reqMap.put("signature", sign);
+		//【最终报文串】--res
+		String res=JSON.toJSONString(reqMap);
+
+```
+
 ## 1.3.7 验签demo
 
 ```java
@@ -200,6 +235,47 @@ public static boolean doCheckSign(String object) {
 		//【 验签结果】
 		return signresult;
 	}
+```
+
+## 1.3.7.2 字段验签demo（数据嵌套）
+
+```java
+public static boolean doCheckSign(String object) {
+        Map<String, Object> treeMap = JSON.parseObject(JSON.toJSONString(JSON.parse(object)), TreeMap.class);
+        // 【响应的签名】
+        String signKey = (String) treeMap.get("signature");
+        treeMap.remove("signature");
+        // 【待签明文串】--去除响应签名后获取待签明文串
+        StringBuilder sb = new StringBuilder();
+        assemSign(treeMap, sb);
+
+        sb.deleteCharAt(sb.length() - 1);
+        String befSgin = sb.toString();
+        //【验签】
+        boolean signresult = false;
+        try {
+            signresult = SignTools.doCheckSign(certFilePath, befSgin, signKey);
+        } catch (Exception e) {
+            System.out.println("验签异常");
+        }
+        //【 验签结果】
+        return signresult;
+    }
+
+private static void assemSign(Map<String, Object> treeMap, StringBuilder sb) {
+        for (String key : treeMap.keySet()) {
+            if(treeMap.get(key) instanceof JSONObject){
+                JSONObject js=(JSONObject) treeMap.get(key);
+                TreeMap<String, Object> tmap = JSON.parseObject(js.toJSONString(), TreeMap.class);
+                assemSign(tmap, sb);
+            }else {
+                if(null != treeMap.get(key) && !"".equals(treeMap.get(key))){
+                    sb.append(treeMap.get(key)).append("|");
+                }
+
+            }
+        }
+    }
 ```
 
 
