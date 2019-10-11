@@ -54,7 +54,6 @@
 |	bankCardPhotoFront	|	银行卡正面	|		|
 |	bankCardPhotoBack	|	银行卡反面	|		|
 |	storeHeadPhoto	|	门店门头照	|		|
-|	storeShopPhoto	|	门店外景照	|		|
 |	storeHallPhoto	|	门店内景照	|		|
 |	storeCashierPhoto 	|	门店收银台照	|		|
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|
