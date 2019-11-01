@@ -11,6 +11,7 @@
     * [2.6请求电子协议挑战码](offline/getVerifyCode.md)
     * [2.7签订电子协议](offline/doVerifyCodeSign.md)
     * [2.8电子协议下载](offline/queryElectronicAgreement.md)
+    * [2.9商户资质查询](offline/search.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
