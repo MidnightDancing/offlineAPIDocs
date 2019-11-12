@@ -62,6 +62,8 @@
 |	wechatRetMsg	|	微信报备驳回原因	|	64	|	C	|		|
 |	alipayRetMsg	|	支付宝报备驳回原因	|	64	|	C	|		|
 |	qrCode	|	微信小程序二维码图片	|		|	C	|	图片二进制，进行了base64编码	|
+|	wechatBankMerId	|微信银行商户号|	32	|	C	|微信报备状态为2：成功时返回|
+|	alipayBankMerId	|支付宝银行商户号|	32	|	C	|支付宝报备状态为2：成功时返回|
 |			|
 |	paper格式如下：		|
 |	商户基本信息：		|
