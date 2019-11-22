@@ -25,7 +25,7 @@
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	orderNo	|	商户订单号	|	64	|	M	|	商户的支付订单号	|
 |	txnAmt	|	交易金额	|	10	|	M	|	单位:分|	100|
-|	orderType	|	订单类型	|	12	|	M	|wechatJs:微信 Js 支付 </br> alipayJs:支付宝 Js 支付</br> alipayJs:银联云闪付unionpayJs|
+|	orderType	|	订单类型	|	12	|	M	|wechatJs:微信 Js 支付 </br> alipayJs:支付宝 Js 支付</br> unionpayJs:银联云闪付js支付|
 |	userId	|	用户标识	|	28	|	M	|微信上传用户openid；</br> 支付宝上传用户buyer_id；	|
 |	appId	|	APPID	|	18	|	C	|微信及支付宝的AppId，如获取OpenID所使用的AppID非下单商户主体资质，则该字段无需上传	|
 |	subAppId	|	子商户appid	|	18	|	O	|二级商户的appId	|	
