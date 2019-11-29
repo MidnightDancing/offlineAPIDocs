@@ -72,8 +72,8 @@
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |	feeRateAlipay 	|	支付宝费率	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWechatpay  	|	微信费率	|	13	|	C	|	费率为0.25%上送0.25	|
-|	bankCardRateLevel1   	|	银行卡费率一档	|		|	C	|		|
-|	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|		|
+|	bankCardRateLevel1   	|	银行卡费率一档	|		|	C	|	1000元以上费率	|
+|	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|	1000元以下费率	|
 |	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	|
