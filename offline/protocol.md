@@ -77,7 +77,7 @@
 |	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	|
-|	bankCardRateLevelA和bankCardRateLevelB格式如下：		|
+|	bankCardRateLevel1和bankCardRateLevel2格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateUnionpayDebitCap    	|	银联手续费率(借记封顶)	|	13	|	C	|	一挡1000元以上借记卡封顶费率必填，单位：分|
