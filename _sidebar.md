@@ -24,6 +24,7 @@
     * [3.8订单关闭](offline/closeOrder.md)
     * [3.9对账文件下载](offline/downfile.md)
     * [3.10对账文件](offline/checkfile.md)
+    * [3.11刷脸支付-获取调用凭证](offline/face.md)
 * **4.回调通知接口定义**
     * [4.1商户入网审核结果通知](basicability/notify.md)
     * [4.2交易结果通知](basicability/tradenotify.md)
