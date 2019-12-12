@@ -45,7 +45,7 @@
 |	certNoEffective	|	证件生效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人证件有效日期<br>Ex:20190101	|
 |	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期<br>Ex:20390101或永久	|
 |	联系人信息：		|
-	contactPerson	|	联系人姓名	|	32	|	M	|		|
+|	contactPerson	|	联系人姓名	|	32	|	M	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	M	|		|
 |	contactPhone	|	联系人手机号	|	11	|	M	|		|
 |	serviceTel	|	客服电话	|	12	|	M	|		|
