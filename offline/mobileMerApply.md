@@ -74,8 +74,8 @@
 |	feeRateAlipay 	|	支付宝费率	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWechatpay  	|	微信费率	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateMobilePos  	|	银行卡费率	|	13	|	C	|	费率为0.25%上送0.25<br>【手机pos银行卡费率】	|
-|	bankCardRateLevel1   	|	云闪付费率一档	|		|	C	|	1000元以上费率	|
-|	bankCardRateLevel2   	|	云闪付费率二档	|		|	C	|	1000元以下费率	|
+|	bankCardRateLevel1   	|	银行卡费率一档	|		|	C	|	1000元以上费率<br>【云闪付费率一档】	|
+|	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|	1000元以下费率<br>【云闪付费率二档】	|
 |	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	|
