@@ -22,7 +22,7 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	mobilePos	|	手机pos标识	|	1	|	M	|	手机POS产品标识 0：是 1：否	|	
+|	mobilePos	|	手机pos标识	|	1	|	M	|	开通手机POS产品标识 0：是 1：否	|	
 |	backUrl	|	回调通知地址	|	200	|	O	|	商户入网成功回调地址	|
 |	|
 |	paper格式如下：		|
