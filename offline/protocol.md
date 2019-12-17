@@ -14,8 +14,8 @@
 **请求参数：** 
 
 
-|	字段	 |&nbsp; &nbsp; 名称&nbsp;&nbsp;&nbsp;  |	  长度  	|	必填  	|	说明	  |
-|:--------:|:--------:|:--------:|:--------:|:--------|
+|	字段	 |    名称  |	  长度  	|	必填  	|	说明	  |
+|:--------:|:---------------:w80p|:--------:|:--------:|:--------|
 |	acqSpId	|	服务商编号	|	10	|	M	|	服务商编号(联动平台分配)	|
 |	merchantName	|	商户简称	|	16	|	M	|	商户交易显示名称	|
 |	paper	|	商户详细信息	|		|	M	|	json 格式字符串	|
@@ -73,7 +73,7 @@
 |	installCityCode	|	装机地址市编码	|	4	|	C	|	terminalType为2时必填	|
 |	installAreaCode	|	装机地址区(县)编码	|	4	|	C	|	terminalType为2时必填	|
 |	installDetailAddr	|	装机详细地址	|	32	|	C	|	terminalType为2时必填	|
-|	terminals	|	终端SN	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;<br>格式为provId#modelId#snNumber-snNumber=provId#modelId#snNumber-snNumber,<br>eg：8#02#0000010483433721-00001=8#01#SMP2000test008	|
+|	terminals	|	终端SN:w80p	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;<br>格式为provId#modelId#snNumber-snNumber=provId#modelId#snNumber-snNumber,<br>eg：8#02#0000010483433721-00001=8#01#SMP2000test008	|
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
