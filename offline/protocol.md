@@ -72,8 +72,8 @@
 |	installProvinceCode	|	装机地址省编码	|	4	|	C	|	terminalType为2时必填	|
 |	installCityCode	|	装机地址市编码	|	4	|	C	|	terminalType为2时必填	|
 |	installAreaCode	|	装机地址区(县)编码	|	4	|	C	|	terminalType为2时必填	|
-|	installDetailAddr	|	装机地址	|	32	|	C	|	terminalType为2时必填	|
-|	terminals	|	终端SN	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;	<br>格式为provId#modelId#snNumber-snNumber=provId#modelId#snNumber-snNumber,eg：8#02#0000010483433721-00001=8#01#SMP2000test008|
+|	installDetailAddr	|	装机详细地址	|	32	|	C	|	terminalType为2时必填	|
+|	terminals	|	终端SN	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;	<br>格式为provId#modelId#snNumber-snNumber=provId#modelId#snNumber-snNumber,eg：8#02#0000010483433721-00001=8#01#SMP2000test008	|
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
@@ -84,7 +84,7 @@
 |	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	posRateLevel1   	|	银行卡收单费率一档	|		|	C	|	1000元以上费率；<br>NFC 1000元以上取该费率；<br>借贷记取该费率	|
-|	posRateLevel2   	|	银行卡收单费率二档	|		|	C	|	1000元（含1000元）以下费率；<br>小额双免取该费率；<br>NFC 1000元(含)取该费率	|
+|	posRateLevel2   	|	银行卡收单费率二档	|		|	C	|	1000元（含1000元）以下费率；<br>小额双免取该费率；<br>NFC 1000元(含)取该费率  |
 |	|
 |	bankCardRateLevel1、bankCardRateLevel2、posRateLevel1和posRateLevel2格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
