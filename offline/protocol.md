@@ -68,7 +68,7 @@
 |	openBank	|	开户银行名称	|	4	|	C	|	对公必填	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
 |	终端信息：		|
-|	terminalType	|	机具来源|	1	|	C	|	2：代理商自备；<br> 3：暂无终端；<br> 默认为暂无终端	|
+|	terminalType	|	机具来源	|	1	|	C	|	2：代理商自备；<br> 3：暂无终端；<br> 默认为暂无终端	|
 |	installProvinceCode	|	装机地址省编码	|	4	|	C	|	terminalType为2时必填	|
 |	installCityCode	|	装机地址市编码	|	4	|	C	|	terminalType为2时必填	|
 |	installAreaCode	|	装机地址区(县)编码	|	4	|	C	|	terminalType为2时必填	|
