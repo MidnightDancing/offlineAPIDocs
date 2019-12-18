@@ -86,7 +86,7 @@
 |	posRateLevel1   	|	银行卡收单费率一档	|		|	C	|	1000元以上费率；<br>NFC 1000元以上取该费率；<br>借贷记取该费率	|
 |	posRateLevel2   	|	银行卡收单费率二档	|		|	C	|	1000元（含1000元）以下费率；<br>小额双免取该费率；<br>NFC 1000元(含)取该费率  |
 |	|
-|	bankCardRateLevel1、bankCardRateLevel2、posRateLevel1和posRateLevel2格式如下：		|
+|	bankCardRateLevel1、bankCardRateLevel2、<br>posRateLevel1和posRateLevel2格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateUnionpayDebitCap    	|	银联手续费率(借记封顶)	|	13	|	C	|	一挡1000元以上借记卡封顶费率必填，单位：分|
