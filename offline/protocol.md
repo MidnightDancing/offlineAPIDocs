@@ -50,7 +50,7 @@
 |	contactPhone	|	联系人手机号	|	11	|	M	|		|
 |	serviceTel	|	客服电话	|	12	|	M	|		|
 |	email	|	邮箱	|	64	|	M	|		|
-|	签约信息：	
+|	签约信息：		|
 |	signType	|	签约协议类型	 |	1	|	O	| 0:纸质协议 1:电子签章协议,默认为电子签章协议	| 
 |	signName	|	签约人姓名	 |	32	|	C	|	电子签章协议需要必填	|
 |	signMobileNo	|	签约人手机号	 |	11     |	C	|	电子签章协议需要必填	|
@@ -73,7 +73,7 @@
 |	installCityCode	|	装机地址市编码	|	4	|	C	|	terminalType为2时必填	|
 |	installAreaCode	|	装机地址区(县)编码	|	4	|	C	|	terminalType为2时必填	|
 |	installDetailAddr	|	装机详细地址	|	32	|	C	|	terminalType为2时必填	|
-|	terminals	|	终端SN	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;<br>格式为provId#modelId#snNumber-snNumber=provId#modelId#snNumber-snNumber,<br>eg：8#02#0000010483433721-00001=8#01#SMP2000test008	|
+|	terminals	|	终端SN	|		|	C	|	terminalType为2时必填，<br>merchantType=1、2时,终端个数最多为5个;<br>merchantType=3时,终端个数最多为1个;<br>格式为provId#modelId#snNumber-snNumber<br>=provId#modelId#snNumber-snNumber,<br>eg：8#02#0000010483433721-<br>00001=8#01#SMP2000test008	|
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
