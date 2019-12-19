@@ -108,6 +108,12 @@
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
 |	openBank	|	开户银行名称	|	4	|	C	|	对公必填	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
+|	终端信息：		|
+|	terminalType	|	机具来源	|	1	|	C	|	2：代理商自备；<br> 3：暂无终端；<br> 默认为暂无终端	|
+|	installProvinceCode	|	装机地址省编码	|	4	|	C	|	terminalType为2时必填	|
+|	installCityCode	|	装机地址市编码	|	4	|	C	|	terminalType为2时必填	|
+|	installAreaCode	|	装机地址区(县)编码	|	4	|	C	|	terminalType为2时必填	|
+|	installDetailAddr	|	装机详细地址	|	32	|	C	|	terminalType为2时必填	|
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
@@ -117,8 +123,10 @@
 |	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|	1000元以下费率	|
 |	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
+|	posRateLevel1   	|	银行卡收单费率一档	|		|	C	|	1000元以上费率；<br>NFC 1000元以上取该费率；<br>借贷记取该费率	|
+|	posRateLevel2   	|	银行卡收单费率二档	|		|	C	|	1000元（含1000元）以下费率；<br>小额双免取该费率；<br>NFC 1000元(含)取该费率  |
 |	|
-|	bankCardRateLevel1和bankCardRateLevel2格式如下：		|
+|	bankCardRateLevel1、bankCardRateLevel2、<br>posRateLevel1和<br>posRateLevel2格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |	feeRateUnionpayDebit    	|	银联手续费率(借记)	|	13	|	C	|	费率为0.25%上送0.25	|
 |	feeRateUnionpayDebitCap    	|	银联手续费率(借记封顶)	|	13	|	C	|	一挡1000元以上借记卡封顶费率必填，单位：分|
