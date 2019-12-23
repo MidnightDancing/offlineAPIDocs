@@ -2,7 +2,7 @@
 
 ## 1.2.1下载DEMO工具包
 
-下载所需的联调工具包。
+https://github.com/umpayer/ServiceProviderPlatform
 
 ## 1.2.2获取联调配置参数，并调整参数配置
 
