@@ -1,4 +1,4 @@
-# 报文格式说明及签名验签规则
+ # 报文格式说明及签名验签规则
 
 **    **<br>您只需花五分钟时间，详细阅读本文档，可以节省1~10小时的联调时间。<br>**
     
@@ -288,7 +288,7 @@ private static void assemSign(Map<String, Object> treeMap, StringBuilder sb) {
 
 【2】加签字段
 
-参与签名字段必须是接口要求字段，不能多冗余字段，否则验签失败。
+参与签名字段必须是接口要求字段，不能多冗余字段，否则验签失败。非空字符串不要进行加签。
 
 【3】必传字段
 
@@ -297,4 +297,8 @@ private static void assemSign(Map<String, Object> treeMap, StringBuilder sb) {
 【4】嵌套json
 
 对于嵌套json字段，采用map嵌套map存放后转json
+
+【5】公私钥
+
+注意检查您的公私钥是由联动优势邮件下发的，请注意上生产后替换测试环境公私钥。
 
