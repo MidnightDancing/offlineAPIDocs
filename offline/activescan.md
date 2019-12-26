@@ -20,7 +20,7 @@
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	orderNo	|	商户订单号	|	64	|	M	|	商户的支付订单号	|
 |	txnAmt	|	交易金额	|	13	|	M	|	是人民币，且以分为单位	|
-|	orderType	|	订单类型	|	12	|	M	|	alipay-支付宝 <br> wechat-微信支付 <br> unionpay-银联二维码	|
+|	orderType	|	订单类型	|	12	|	M	|	alipay-支付宝 <br> wechat-微信支付 <br> unionpay-银联二维码 <br> mobilepos-手机pos支付 	|
 |	goodsInfo	|	商品信息	|	128	|	O	|	可上送商品描述、商户订单号等信息，用户付款成功后会在微信账单页面展示	|
 |	paymentValidTime	|	订单有效时间(秒)	|	6	|	O	|	订单有效时间从调起用户密码键盘开始算起，超时之后,用户无法继续支付。	|
 |	backUrl	|	通知地址	|	256	|	O	| 	结果通知地址. 必须以 http:// 或 https:// 开始, 支持大小写字母,数字,'/','&','%','?','=' . 暂不支持通知地址中包含其他字符,包含url编码后的结果 如%3C %3E等	|
