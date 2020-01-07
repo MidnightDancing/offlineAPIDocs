@@ -6,7 +6,7 @@
 
 **请求URL：** 
 - 服务商->联动优势
-`{交易服务根地址}/merchants/subAppid
+`{交易服务根地址}/merchants/subAppid`
   
 **请求方式：**
 - POST 

@@ -5,9 +5,8 @@
 - 查询可用终端的厂商、终端型号和SN号。
 
 #### **请求URL：** 
-
 - 服务商->联动优势
-  `{交易服务根地址}/merchants/selectAgentSnNumbers
+`{交易服务根地址}/merchants/selectAgentSnNumbers`
 
 #### **请求方式：**
 

@@ -2,14 +2,14 @@
     
 **简要描述：** 
 - 开发入网接口前请先详细了解下图调用流程
-https://www.processon.com/view/link/5d67d28fe4b0f4255344998e
+电子协议流程如下：https://www.processon.com/view/link/5d67d28fe4b0f4255344998e
 - 通过接口(API)形式进行商户入网
 - 请通过主动调用**2.3 商户信息查询**接口来保证商户状态一致性
 
 **请求URL：** 
 - 服务商->联动优势
-`{交易服务根地址}/merchants/apply
-  
+`{交易服务根地址}/merchants/apply`
+
 **请求方式：**
 - POST 
 
