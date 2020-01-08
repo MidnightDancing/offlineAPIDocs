@@ -84,7 +84,7 @@
 |	feeRateWechatpay  	|	微信费率	|	13	|	C	|	费率为0.25%上送0.25	|
 |	bankCardRateLevel1   	|	银行卡费率一档	|		|	C	|	1000元以上费率	|
 |	bankCardRateLevel2   	|	银行卡费率二档	|		|	C	|	1000元以下费率	|
-|	feeRateD0   	|	D0手续费	|	13	|	C	|	费率为0.25%上送0.25	|
+|	feeRateD0   	|	附加手续费	|	13	|	C	|	D0\D1服务如收取附加手续费则进行配置，费率为0.25%上送0.25	|
 |	feeRateWithdraw   	|	提现手续费	|	13	|	C	|	单位：分	|
 |	posRateLevel1   	|	银行卡收单费率一档	|		|	C	|	1000元以上费率；<br>NFC 1000元以上取该费率；<br>借贷记取该费率	|
 |	posRateLevel2   	|	银行卡收单费率二档	|		|	C	|	1000元（含1000元）以下费率；<br>小额双免取该费率；<br>NFC 1000元(含)取该费率  |
