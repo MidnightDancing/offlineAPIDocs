@@ -34,7 +34,7 @@
 |	businessLicenseCode	|	营业执照编号	|	32	|	C	|	merchantType= 1、2必传	|
 |	businessLicenseName	|	商户经营名称	|	64	|	C	|	merchantType= 1、2必传	|
 |	businessLicenseEffective|	营业执照生效日期	|	8	|	C	|	merchantType= 1、2必传	|
-|	businessLicenseExpired	|	营业执照失效日期	|	8	|	C	|	merchantType= 1、2必传	|
+|	businessLicenseExpired	|	营业执照失效日期	|	8	|	C	|	merchantType= 1、2必传，长期有效身份证此处请填写“永久”！！！	|
 |	industryCategoryId	|	经营类目	|	4	|	M	|	参见附件一	|
 |	商户基本信息：		|
 |	businessAddress	|	所属地址详细地址	|	256	|	M	|		|
@@ -46,7 +46,7 @@
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	merchantType= 1、2必传，1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merchantType= 1、2必传	|
 |	certNoEffective	|	证件生效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人证件有效日期<br>Ex:20190101	|
-|	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期<br>Ex:20390101或永久	|
+|	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期<br>Ex:20390101，长期有效身份证此处请填写“永久”！！！	|
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	32	|	M	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	M	|		|
@@ -67,7 +67,7 @@
 |	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	M	|		|
 |	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
-|	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
+|	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101，长期有效身份证此处请填写“永久”！！！	|
 |	openBank	|	开户银行名称	|	4	|	C	|	对公必填	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
 |	终端信息：		|
