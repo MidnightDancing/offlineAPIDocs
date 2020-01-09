@@ -26,8 +26,8 @@
 |	字段标识	 |	字段含义	  |	备注说明	  |||
 |	idCardFront	|	法人身份证正面	|		|||
 |	idCardBack	|	法人身份证反面	|		|||
-|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2时必传	|||
-|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2时必传	|||
+|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2、3时必传	|||
+|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2、3时必传	|||
 |	openingLicenseAccountPhoto	|	开户证明文件	|	settleAccountType=1时必传	|||
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|||
 |	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|||
@@ -43,8 +43,8 @@
 |	字段标识	 |	字段含义	  |	备注说明	  |||
 |	idCardFront	|	法人身份证正面	|		|||
 |	idCardBack	|	法人身份证反面	|		|||
-|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2时必传	|||
-|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2时必传	|||
+|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2、3时必传	|||
+|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2、3时必传	|||
 |	openingLicenseAccountPhoto	|	开户证明文件	|	settleAccountType=1时必传	|||
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|||
 |	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|||
