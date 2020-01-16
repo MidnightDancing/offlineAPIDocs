@@ -100,3 +100,5 @@
 **备注** 
 
 - 请不要最后上传商户收单协议照片，最后上传收单协议照片，只能上传一张不能上传多张，请注意！
+
+ ![avatar](  http://www.renjiework.com/umpay/zizhi.png )
