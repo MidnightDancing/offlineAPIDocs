@@ -13,17 +13,17 @@
 
 **请求参数：** 
 
-
-|	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
+|	字段	|	名称	|	长度	|	必填	|   说明|
 |:--------:|:--------:|:--------:|:--------:|:--------|
 |	orderTime	|	订单时间	|	16	|	M	|	yyyyMMddHHmmss	|
 |	acqSpId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
-|	ledgerOrderNo	|	分账订单号	|	64	|	M	|	商户的分账支付订单号	|
-|	transLedgerOrderNo	|	联动分账订单号	|	32	|	M	|	联动优势的分账订单号|
-|	ledgerRefundOrderNo	|	分账退回订单号	|	32	|	M	|	联动优势的分账订单号|
-|	ledgerRefundInfo	|	分账退回信息	|	1024	|	M	|		|
-|	signature	|	签名	|	256	|	M	|	参见签名机制	|
+|	origOrderNo	|	原单流水号	|	64	|	M	|	原交易的订单号	|
+|	origTxnAmt	|	原单交易金额	|	13	|	M	|	单位:原交易的总金额|
+|	orderNo	|	退款流水号	|	64	|	M	|	本次退货交易的订单号	|
+|	txnAmt	|	退款金额	|	13	|	M	|	本次退货的金额|
+|	signature	|	签名	|	256	|	M	|参见签名机制	|	|
+|	ledgerRefundInfo	|	分账退回信息	|	1024	|	O	|		|
 |	|
 |	ledgerRefundInfo格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
@@ -33,22 +33,10 @@
 
 
  **返回参数说明** 
- 
-|	字段	|	名称	|	长度	|	必填	|	说明	|
-|--------|-------|--------|--------|--------|
-|	respCode	|	返回码	|	8	|	M	|	返回码	|
-|	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
-|	platDate	|	平台日期	|	16	|	M	|	平台日期   |
-|	ledgerRefundOrderNo	|	分账退回订单号	|	64	|	M	|	商户的分账支付订单号	|
-|	transLedgerRefundOrderNo	|	联动分账退回订单号	|	32	|	O	|	联动优势的订单号|
-|	ledgerRefundResult	|	分账结果信息	|	1024	|	O	|		|
+ |	字段	|	名称	|	长度	|	必填	|	说明	|
+ |----|----|----|----|----|
+ |	respCode	|	返回码	|	8	|	M	|	返回码	|
+ |	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
+ |	platDate	|	平台日期	|		|	O	|	平台日期   |
+ |	transactionId	|	联动退款流水号	|	32	|	O	|	联动优势的流水号|
 |	signature	|	签名	|	256	|	M	|	参见签名机制	|
-|	|
-|	ledgerRefundResult格式如下：		|
-|	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	refundResultCode	|	分账结果码	|	8	|	O	|	返回码	|
-|	refundResultMsg	|	分账结果信息	|	128	|	O	|	返回信息	|
-|	ledgerRefundTrans	|	分账流水号	|	64	|	O	|	商户的分账流水号	|
-|	ledgerAcqMerId    	|	分账商户号	|	13	|	O	|		|
-|	ledgerAccountType    	|	分账退回账户类型	|	13	|	O	|		|
-|	ledgerTxnAmt	|	分账金额	|	13	|	O	|	单位:分	|
