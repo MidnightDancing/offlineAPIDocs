@@ -24,55 +24,64 @@
 |	图片类型：		|||||
 |	个体：		|||||
 |	字段标识	 |	字段含义	  |	备注说明	  |||
-|	idCardFront	|	法人身份证正面	|		|||
-|	idCardBack	|	法人身份证反面	|		|||
+|	idCardFront	|	法人身份证正面	| 必传 |||
+|	idCardBack	|	法人身份证反面	| 必传 |||
 |	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2、3时必传	|||
 |	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2、3时必传	|||
 |	openingLicenseAccountPhoto	|	开户证明文件	|	settleAccountType=1时必传	|||
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|||
 |	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|||
-|	businessLicensePhoto	|	 营业执照照片	|		|||
-|	storeHeadPhoto	|	门店门头照	|		|||
-|	storeHallPhoto	|	门店内景照	|		|||
-|	storeCashierPhoto 	|	门店收银台照	|		|||
+|	businessLicensePhoto	|	 营业执照照片	| 必传 |||
+|	taxImg	|	税务登记证	| 三证合一不传，非三证合一必传 |||
+|	organizationImg	|	组织机构代码证	| 三证合一不传，非三证合一必传 |||
+|	storeHeadPhoto	|	门店门头照	| 必传 |||
+|	storeHallPhoto	|	门店内景照	| 必传 |||
+|	storeCashierPhoto 	|	门店收银台照	| 必传 |||
 |	settleAuthLetterPhoto |	结算授权函	| settleAccountType=3时必传 |||
 |	settleAuthIdcardfront |	结算授权人身份证正面	| settleAccountType=3时必传 |||
 |	settleAuthIdCardBack |	结算授权人身份证反面	| settleAccountType=3时必传 |||
 |			|||||
 |	企业：		|||||
 |	字段标识	 |	字段含义	  |	备注说明	  |||
-|	idCardFront	|	法人身份证正面	|		|||
-|	idCardBack	|	法人身份证反面	|		|||
-|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2、3时必传	|||
-|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2、3时必传	|||
+|	idCardFront	|	法人身份证正面	| 必传 |||
+|	idCardBack	|	法人身份证反面	| 必传 |||
+|	bankCardPhotoFront	|	银行卡正面	|	settleAccountType=2时必传	|||
+|	bankCardPhotoBack	|	银行卡反面	|	settleAccountType=2时必传	|||
 |	openingLicenseAccountPhoto	|	开户证明文件	|	settleAccountType=1时必传	|||
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|||
 |	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|||
-|	businessLicensePhoto	|	 营业执照照片	|		|||
-|	storeHeadPhoto	|	门店门头照	|		|||
-|	storeHallPhoto	|	门店内景照	|		|||
-|	storeCashierPhoto 	|	门店收银台照	|		|||
-| settleAuthLetterPhoto |结算授权函|settleAccountType=3时必传|||
-| settleAuthIdcardfront |结算授权人身份证正面|settleAccountType=3时必传|||
-| settleAuthIdCardBack |结算授权人身份证反面|settleAccountType=3时必传|||
+|	businessLicensePhoto	|	 营业执照照片	| 必传 |||
+|	taxImg	|	税务登记证	| 三证合一不传，非三证合一必传 |||
+|	organizationImg	|	组织机构代码证	| 三证合一不传，非三证合一必传 |||
+|	storeHeadPhoto	|	门店门头照	| 必传 |||
+|	storeHallPhoto	|	门店内景照	| 必传 |||
+|	storeCashierPhoto 	|	门店收银台照	| 必传 |||
+| settleAuthLetterPhoto |结算授权函|settleAccountType=2时必传|||
+| settleAuthIdcardfront |结算授权人身份证正面|settleAccountType=2时必传|||
+| settleAuthIdCardBack |结算授权人身份证反面|settleAccountType=2时必传|||
 |	|||||
 |	小微：		|||||
 |	字段标识	 |	字段含义	  |	备注说明	  |||
-|	idCardFront	|	法人身份证正面	|		|||
-|	idCardBack	|	法人身份证反面	|		|||
-|	bankCardPhotoFront	|	银行卡正面	|		|||
-|	bankCardPhotoBack	|	银行卡反面	|		|||
-|	storeHeadPhoto	|	门店门头照	|		|||
-|	storeHallPhoto	|	门店内景照	|		|||
-|	storeCashierPhoto 	|	门店收银台照	|		|||
+|	idCardFront	|	法人身份证正面	| 必传 |||
+|	idCardBack	|	法人身份证反面	| 必传 |||
+|	bankCardPhotoFront	|	银行卡正面	| 必传 |||
+|	bankCardPhotoBack	|	银行卡反面	| 必传 |||
+|	storeHeadPhoto	|	门店门头照	| 必传 |||
+|	storeHallPhoto	|	门店内景照	| 必传 |||
+|	storeCashierPhoto 	|	门店收银台照	| 必传 |||
 |	acquiringAgreementPhoto	|	商户收单协议照片	|	signType=0(纸质协议)时必传	|||
-|	signAuthLetterPhoto	|	签约授权书	|	signType=1(电子协议)时必传	|||
-|	settleAuthLetterPhoto	|	结算授权函	|	settleAccountType=3时必传	|||
-|	settleAuthIdcardfront	|	结算授权人身份证正面	|	settleAccountType=3时必传	|||
-|	settleAuthIdCardBack	|	结算授权人身份证反面	|	settleAccountType=3时必传	|||
 
+##### 资质图片要求说明
 
- **商户请求报文示例**
+商户资质图片要求
+
+![avatar](  http://www.renjiework.com/umpay/zizhi.png )
+
+ 商户资质属性区分规则
+
+![avatar](  http://www.renjiework.com/umpay/shuxing.png )
+
+**商户请求报文示例**
 
 ```json
 
@@ -91,6 +100,8 @@
 
 ```
 
+
+
  **返回参数说明** 
 
 |	字段	|	名称	|	长度	|	必填	|	说明	|
@@ -100,3 +111,6 @@
 **备注** 
 
 - 请不要最后上传商户收单协议照片，最后上传收单协议照片，只能上传一张不能上传多张，请注意！
+- 注意不同商户类型下规则不一样！
+
+ 
