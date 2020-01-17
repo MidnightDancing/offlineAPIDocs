@@ -20,7 +20,7 @@
 |	acqSpId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	ledgerOrderNo	|	分账订单号	|	64	|	M	|	商户的分账支付订单号	|
-|	ledgerEndInfo	|	分账万杰信息	|	1024	|	O	|		|
+|	ledgerEndInfo	|	分账完结信息	|	1024	|	O	|		|
 |	signature	|	签名	|	256	|	M	|	参见签名机制	|
 |	|
 |	ledgerEndInfo格式如下：		|
