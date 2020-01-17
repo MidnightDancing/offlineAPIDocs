@@ -32,20 +32,9 @@
  |	txnAmt	|	退款金额	|	13	|	C	| 	|
  |	transactionId	|	联动流水号	|	32	|	M	|	联动优势的流水号|
  |	signature	|	签名	|	256	|	M	|	参见签名机制	||
-  |	ledgerRefundResult	|	分账结果	|	1024	|	O	|	联动优势的流水号|
-
-|	字段	|	名称	|	长度	|	必填	|	说明	|
-|--------|-------|--------|--------|--------|
-|	respCode	|	返回码	|	8	|	M	|	返回码	|
-|	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
-|	platDate	|	平台日期	|	16	|	M	|	平台日期   |
-|	ledgerRefundOrderNo	|	分账退回订单号	|	64	|	O	|	商户的分账支付订单号	|
-|	transLedgerRefundOrderNo	|	联动分账退回订单号	|	32	|	O	|	联动优势的订单号|
-|	ledgerRefundInfo	|	分账退回信息	|	1024	|	O	|		|
-|	signature	|	签名	|	256	|	M	|	参见签名机制	|
-|	|
-|	ledgerRefundInfo格式如下：		|
-|	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	ledgerAcqMerId    	|	分账退回商户号	|	13	|	O	|		|
-|	ledgerAccountType    	|	分账退回账户类型	|	13	|	O	|	1:担保账户 2:现金账户	|
-|	ledgerRefundTxnAmt	|	分账退回金额	|	13	|	O	|	单位:分	|
+ |	ledgerRefundResult	|	分账结果	|	1024	|	O	|	联动优势的流水号|
+ |	ledgerRefundInfo格式如下：		|
+ |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
+ |	ledgerAcqMerId    	|	分账退回商户号	|	13	|	O	|		|
+ |	ledgerAccountType    	|	分账退回账户类型	|	13	|	O	|	1:担保账户 2:现金账户	|
+ |	ledgerRefundTxnAmt	|	分账退回金额	|	13	|	O	|	单位:分	|
