@@ -27,9 +27,9 @@
 |	|
 |	ledgerRefundInfo格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
-|	ledgerAcqMerId    	|	分账退回商户号	|	13	|	M	|		|
-|	ledgerAccountType    	|	分账退回账户类型	|	13	|	M	|	1:担保账户 2:现金账户	|
-|	ledgerRefundTxnAmt	|	分账退回金额	|	13	|	M	|	单位:分	|
+|	ledgerAcqMerId    	|	分账退回商户号	|	13	|	O	|		|
+|	ledgerAccountType    	|	分账退回账户类型	|	13	|	O	|	1:担保账户 2:现金账户	|
+|	ledgerRefundTxnAmt	|	分账退回金额	|	13	|	O	|	单位:分	|
 
 
  **返回参数说明** 
