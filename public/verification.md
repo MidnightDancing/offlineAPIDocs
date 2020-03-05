@@ -302,3 +302,37 @@ private static void assemSign(Map<String, Object> treeMap, StringBuilder sb) {
 
 注意检查您的公私钥是由联动优势邮件下发的，请注意上生产后替换测试环境公私钥。
 
+
+
+## 1.3.9 首次联调示例
+
+首次联调可以依据上述规则，拼接好如下json串之后进行加签请求。
+
+> 【待签名明文串】
+>
+> acqMerId=41509208&acqSpId=Y471790403&authCode=134579761426152164&goodsId=123&goodsInfo=口罩&orderNo=JD202003051057240001&orderTime=20200305105724&orderType=wechat&txnAmt=1
+>
+> 【签名密文串】
+>
+> SnOf25uc9ZJ+Opmze+o7dsAggxQCB7/aYqlsEZ89V5T3RhsGw6p7ISO1BcnxAMuAWNhq3UOl+Ei4PtsVMnoaCTjY0IDoBnCCWdv98O5GMHp70uAAB/cI5EQrt1HRlM6Lb9VyL1f5BE1FthlSZYKlSvS8hOn3ZaDzN7z4N+4ijHI=
+>
+> 【最终报文串】
+>
+> {"acqMerId":"41509208","acqSpId":"Y471790403","authCode":"134579761426152164","goodsId":"123","goodsInfo":"口罩","orderNo":"JD202003051057240001","orderTime":"20200305105724","orderType":"wechat","signature":"SnOf25uc9ZJ+Opmze+o7dsAggxQCB7/aYqlsEZ89V5T3RhsGw6p7ISO1BcnxAMuAWNhq3UOl+Ei4PtsVMnoaCTjY0IDoBnCCWdv98O5GMHp70uAAB/cI5EQrt1HRlM6Lb9VyL1f5BE1FthlSZYKlSvS8hOn3ZaDzN7z4N+4ijHI=","txnAmt":"1"}
+>
+> 【请求方式】
+>
+> POST
+>
+> 【请求header头约束】
+>
+>  *application*/*json*
+>
+> 【编码约束】
+>
+> utf-8
+>
+> 【请求接口】
+>
+> /pay/micropay
+
