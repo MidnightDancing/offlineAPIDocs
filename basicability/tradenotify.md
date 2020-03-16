@@ -28,7 +28,7 @@
 |  payTime |    交易支付时间|  16  |  C   | yyyyMMddHHmmss                     |
 |couponInfo|    优惠信息    |  128 |  C   |                          |
 |dctGoodsInfo| 单品优惠信息 |  128 |  C   |                          |
-|transactionId|第三方支付订单号|32 |  C   |                          |
+|transactionId|第三方支付订单号|32 |  C   | 联动支付流水号（条形码）      |
 |bankType  |   付款银行     |   16 |  C   |                          |
 |cardType  |   银行卡类型   |  2   |  C   |01 – 借记卡；02 – 贷记卡  |
 |notifyType  |   通知类型   |  2   |  C   |1 – 消费；2 – 撤销；3 – 退款  |
