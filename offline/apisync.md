@@ -42,7 +42,7 @@
 |	platDate	|	平台日期	|		|	M	|	平台日期   |
 |	payTime	|	交易时间	|	|	C	|	交易时间  格式：MMDDhhmmss |
 |	txnAmt	|	订单金额	|		|	C	|	订单金额 (打印小票使用)	|
-|	paySeq	|	支付流水号	|		|	C	|	支付流水号，成功返回	|
+|	paySeq	|	支付流水号	|		|	C	|	支付流水号（条形码），成功返回	|
 |	transactionId	|	联动流水号	|	32	|	M	|	联动优势的流水号|
 |	signature	|	签名	|	256	|	M	|	参见签名机制	|
 |	depBankSeq	|	第三方流水号	|		|	O	|	第三方流水号（微信/支付宝/银联的交易流水号）	|
