@@ -50,7 +50,7 @@
 |	联系人信息：		|
 |	contactPerson	|	联系人姓名	|	10	|	M	|		|
 |	contactCertType	|	联系人证件类型	|	1	|	C	|	1：身份证；5：护照，默认1:身份证	|
-|	contactPersonId	|	联系人身份证号	|	18	|	M	|		|
+|	contactPersonId	|	联系人证件号	|	18	|	M	|		|
 |	contactPhone	|	联系人手机号	|	11	|	M	|		|
 |	serviceTel	|	客服电话	|	12	|	M	|		|
 |	email	|	邮箱	|	64	|	M	|		|
