@@ -40,5 +40,5 @@
 |	respCode	|	返回码	|	8	|	M	|	返回码	|
 |	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
 |	contName	|	电子协议名称	|		|	C	|	成功时返回	|
-|	elecAgreement	|	电子协议pdf文件	|		|	C	|	Base64格式，成功时返回	|
+|	elecAgreement	|	电子协议pdf文件	|		|	C	|	将该BASE64编码的字符串，进行BASE64解码后得到字节流写入到本地PDF文件，成功时返回	|
 
