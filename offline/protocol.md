@@ -59,8 +59,8 @@
 |	signName	|	签约人姓名	 |	32	|	C	|	电子签章协议需要必填	|
 |	signMobileNo	|	签约人手机号	 |	11     |	C	|	电子签章协议需要必填	|
 |	signCertNo	|	签约人身份证号	 |	18     |	C	|	电子签章协议需要必填	|
-|	appName		|	APP名称 	    |	   32	  |	C	|	appName和webSite任选其一,电子签章协议需要必填	|
-|	webSite		|	商户网址	  |	256	|	C	|	appName和webSite任选其一,电子签章协议需要必填	|
+|	appName		|	APP名称 	    |	   32	  |	C	|	展示电子合同的app名称或者网址URL,appName和webSite任选其一,电子签章协议需要必填	|
+|	webSite		|	商户网址	  |	256	|	C	|	展示电子合同的app名称或者网址URL,appName和webSite任选其一,电子签章协议需要必填	|
 |	结算账户信息：		|
 |	settleAccountType	|	结算账户类型	|	1	|	M	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	M	|		|
