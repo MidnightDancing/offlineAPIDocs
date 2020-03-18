@@ -498,7 +498,7 @@ class SignUtil {
                 continue;
             }
             if (is_array($v)) {
-                $Parameters[$k] = self::sortReqFields($v);
+                $Parameters[$k] = self::sortRespFields($v);
             } else {
                 $Parameters[$k] = $v;
             }
