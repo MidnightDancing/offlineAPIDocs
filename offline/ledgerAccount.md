@@ -56,4 +56,4 @@
 |	ledgerAcqMerId    	|	分账商户号	|	13	|	O	|		|
 |	ledgerTxnAmt	|	分账金额	|	13	|	O	|	单位:分	|
 |	ledgerMerPriv	|	分账商户私有域	|	128	|	O	|	商户私有域	|
-|	isTrueTime	|	是否实时到账	|	128	|	O	|	0:是 1:否	|
+|	isTrueTime	|	是否实时到账	|	128	|	O	|	1:是 0:否	|
