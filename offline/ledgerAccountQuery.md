@@ -27,8 +27,7 @@
 |--------|-------|--------|--------|--------|
 |	respCode	|	返回码	|	8	|	M	|	返回码	|
 |	respMsg	|	返回信息	|	128	|	M	|	返回信息	|
-|	resultCode	|	分账结果码	|	8	|	O	|	返回码	|
-|	resultMsg	|	分账结果信息	|	128	|	O	|	返回信息	|
+|	ledgerState	|	分账状态	|	2	|	M	|	1、分账处理中 2、分账成功 3、分账失败 4、分账完结成功 5、分账完结处理中	|
 |	platDate	|	平台日期	|	16	|	O	|	平台日期   |
 |	orderNo	|	商户订单号	|	64	|	O	|		|
 |	ledgerOrderNo	|	分账订单号	|	64	|	O	|	商户的分账支付订单号	|
@@ -42,4 +41,4 @@
 |	ledgerAcqMerId    	|	分账商户号	|	13	|	O	|		|
 |	ledgerTxnAmt	|	分账金额	|	13	|	O	|	单位:分	|
 |	ledgerMerPriv	|	分账商户私有域	|	128	|	O	|	商户私有域	|
-|	isTrueTime	|	是否实时到账	|	128	|	O	|	0:是 1:否	|
+|	isTrueTime	|	是否实时到账	|	2	|	O	|	0:是 1:否	|
