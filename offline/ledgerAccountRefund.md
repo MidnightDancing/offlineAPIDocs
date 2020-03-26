@@ -23,7 +23,8 @@
 |	orderNo	|	退款流水号	|	64	|	M	|	本次退货交易的订单号	|
 |	txnAmt	|	退款金额	|	13	|	M	|	本次退货的金额|
 |	signature	|	签名	|	256	|	M	|参见签名机制	|	|
-|	ledgerRefundInfo	|	分账退回信息	|	1024	|	O	|		|
+|	ledgerOrderNo	|	分账退款流水号	|	64	|	O	|	本次退货交易的分账订单号（原交易为分账交易必传）|
+|	ledgerRefundInfo	|	分账退回信息	|	1024	|	O	| 不传默认主商户直接退	|
 |	|
 |	ledgerRefundInfo格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
