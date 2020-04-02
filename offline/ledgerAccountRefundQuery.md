@@ -16,6 +16,7 @@
 |	acqSpId	|	代理商编号	|	10	|	M	|	代理商编号(联动平台分配)	|
 |	acqMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)	|
 |	orderNo	|	退款流水号	|	64	|	M	|	本次退货交易的订单号	|
+|	ledgerOrderNo	|	分账退款流水号	|	64	|	O	|	分账订单必传	|
 |	signature	|	签名	|	256	|	M	|参见签名机制	|	|
 
 
@@ -35,6 +36,6 @@
  |	ledgerRefundResult	|	分账结果	|	1024	|	O	|	联动优势的流水号|
  |	ledgerRefundInfo格式如下：		|
  |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
- |	ledgerAcqMerId    	|	分账退回商户号	|	13	|	O	|		|
- |	ledgerAccountType    	|	分账退回账户类型	|	13	|	O	|	1:担保账户 2:现金账户	|
+ |	ledgerAcqMerId    	|	分账退回商户号	|	8	|	O	|		|
+ |	ledgerAccountType    	|	分账退回账户类型	|	2	|	O	|	1:担保账户 2:现金账户	|
  |	ledgerRefundTxnAmt	|	分账退回金额	|	13	|	O	|	单位:分	|
