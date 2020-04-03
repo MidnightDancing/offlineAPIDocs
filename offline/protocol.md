@@ -69,7 +69,7 @@
 |	settleIdNo	|	身份证号	|	18	|	M	|		|
 |	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101，长期有效身份证此处请填写“永久”！！！	|
-|	openBank	|	开户银行名称	|	4	|	C	|	对公必填	|
+|	openBank	|	开户银行名称	|	4	|	C	|	对公必填 填写银行编号，数据请联系联调人员	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
 |	终端信息：		|
 |	terminalType	|	机具来源	|	1	|	C	|	2：代理商自备；<br> 3：暂无终端；<br> 默认为暂无终端<br>merchantType=3时，暂不支持2：代理商自备	|
