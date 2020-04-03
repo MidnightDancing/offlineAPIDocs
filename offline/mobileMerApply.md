@@ -70,7 +70,7 @@
 |	settleIdNo	|	身份证号	|	18	|	M	|		|
 |	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
-|	openBank	|	开户银行名称	|	4	|	C	|	对公必填	|
+|	openBank	|	开户银行名称	|	4	|	C	|	对公必填 填写银行编号，数据请联系联调人员	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
 |	|
 |	rate格式如下：		|
