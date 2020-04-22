@@ -15,6 +15,7 @@
     * [2.9商户资质查询](offline/search.md)
     * [2.10可用终端查询](offline/terminalSearch.md)
     * [2.11商户增加终端](offline/addTerminals.md)
+    * [2.12查询支行全称](offline/queryBankBrhName.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
