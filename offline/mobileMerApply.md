@@ -25,8 +25,6 @@
 |	mobilePos	|	手机pos标识	|	1	|	M	|	开通手机POS产品标识 0：是 1：否	|	
 |	qPosAppId	|	APP包名	|	64	|	M	|	APP包名	|	
 |	userId	|	APP账户名	|	10	|	M	|	APP账户名	|	
-
-
 |	backUrl	|	回调通知地址	|	200	|	O	|	商户入网成功回调地址	|
 |	|
 |	paper格式如下：		|
