@@ -22,9 +22,7 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	mobilePos	|	手机pos标识	|	1	|	M	|	开通手机POS产品标识 0：是 1：否	|	
-|	qPosAppId	|	APP包名	|	64	|	M	|	APP包名	|	
-|	userId	|	APP账户名	|	10	|	M	|	APP账户名	|	
+|	mobilePos	|	手机pos标识	|	1	|	M	|	开通手机POS产品标识 0：是 1：否	|	|	
 |	backUrl	|	回调通知地址	|	200	|	O	|	商户入网成功回调地址	|
 |	|
 |	paper格式如下：		|
@@ -70,6 +68,9 @@
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
 |	openBank	|	开户银行名称	|	4	|	C	|	对公必填 填写银行编号，数据请联系联调人员	|
 |	openSubBank	|	开户支行名称	|	64	|	M	|		|
+|	手机POS相关信息：		|
+|	qPosAppId	|	APP包名	|	64	|	M	|	APP包名	|	
+|	userId	|	APP账户名	|	10	|	M	|	APP账户名	
 |	|
 |	rate格式如下：		|
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
