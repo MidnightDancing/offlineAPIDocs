@@ -20,9 +20,7 @@
 
 ```json
 {
-	"acqMerId": "41509208",
-	"acqSpId": "Y471790403",
-	"signature": "A973LB9jCo30ckA6ILL2hChhdUbt4krFoJlcFNufox7RN22Hmujey75bbvR6MQ/1U3q/Um/ivCaD45U3+xvka53gHnQPvz7q0d+R+RXA7BYdwnTjFgk883AjvMi5EM75ivHZA2Fua3SWDmSTTrlPGfEGxkqfaMnThLsYZYzri0U="
+	"acqMerId": "41509208"
 }
 ```
 
