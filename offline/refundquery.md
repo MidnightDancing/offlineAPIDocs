@@ -46,5 +46,5 @@
 |	signature	|	签名	|	256	|	M	|	参见签名机制	||
 
  **备注** 
-- 响应报文中，retCode=00,请求退款查询成功，retCode!=00,请求退款查询失败。
+- 响应报文中，respCode等于00,请求退款查询成功，retCode不等于00,请求退款查询失败。查询失败请继续调用查询接口查询。
 - <span style="color:red">查询成功后，获取交易应答码（origRespCode），根据origRespCode判定这笔退款订单成功或者失败。</span>
