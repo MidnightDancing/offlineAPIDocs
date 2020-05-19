@@ -39,8 +39,8 @@
 |        lawyerName        |     法人姓名     |  32  |  C   |                                                              |
 |      lawyerCertType      |   法人证件类型   |  1   |  C   | 1：身份证	;5:护照                                         |
 |       lawyerCertNo       |    法人证件号    |  20  |  C   |                                                              |
-|     certNoEffective      |   证件生效日期   |  8   |  C   | merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人证件有效日期<br>Ex:20190101 |
-|      certNoExpired       |   证件失效日期   |  8   |  C   | merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期<br>Ex:20390101，长期有效身份证此处请填写“永久”！！！ |
+|     certNoEffective      |   证件生效日期   |  8   |  C   | 只有merchantType=1、2时方可传入此字段，为企业法人证件有效日期<br> Ex:20190101 |
+|      certNoExpired       |   证件失效日期   |  8   |  C   | 只有merchantType=1、2时方可传入此字段，为企业法人证件失效日期<br> Ex:20390101，长期有效身份证此处请填写“永久”！！！ |
 |      contactPerson       |    联系人姓名    |  10  |  C   |                                                              |
 |     contactCertType      |  联系人证件类型  |  1   |  C   | 1：身份证；5：护照，默认1:身份证                             |
 |     contactPersonId      |   联系人证件号   |  18  |  C   |                                                              |
@@ -51,8 +51,8 @@
 |     settleAccountNo      |     结算账号     |  30  |  C   |                                                              |
 |      settleAccount       |     结算户名     | 256  |  C   |                                                              |
 |        settleIdNo        |     身份证号     |  18  |  C   |                                                              |
-|    settleIdEffective     |  身份证生效日期  |  8   |  C   | Ex:20190101                                                  |
-|     settleIdExpired      |  身份证失效日期  |  8   |  C   | Ex:20390101，长期有效身份证此处请填写“永久”！！！            |
+|    settleIdEffective     |  身份证生效日期  |  8   |  C   | 只有merchantType=3时方可传入此字段Ex:20190101                |
+|     settleIdExpired      |  身份证失效日期  |  8   |  C   | 只有merchantType=3时方可传入此字段Ex:20390101，长期有效身份证此处请填写“永久”！！！ |
 |         openBank         |   开户银行名称   |  4   |  C   | 附件中编码，如修改为对公账户必填                             |
 |       openSubBank        |   开户支行名称   |  64  |  C   |                                                              |
 
