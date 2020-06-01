@@ -1,5 +1,5 @@
 # 服务商平台-商户信息查询
-    
+
 **简要描述：** 
 - 调用该接口查询商户入网进度信息
 
@@ -7,7 +7,7 @@
 **请求URL：** 
 - 服务商->联动优势
 `{交易服务根地址}/merchants/queryMerchantInfo`
- 
+
 **请求方式：**
 
 - POST 
@@ -43,7 +43,7 @@
 ```
 
  **返回参数说明** 
- 
+
 |	字段	|	名称	|	长度	|	必填	|	说明	|
 |--------|-------|--------|--------|--------|
 |	respCode	|	返回码	|	8	|	M	|	返回码	|
@@ -55,7 +55,7 @@
 |	rate	|	手续费费率	|		|	M	|	json 格式字符串	|
 |	wechatChannelId	|	服务商微信渠道号	|	64	|	M	|	微信报备的服务商渠道号	|
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
-|	auditStatus	|	审核状态	|	1	|	M	|	0：资料待完善 1：待审核  2：已完成  3：审核失败   6：待签约	|
+|	auditStatus	|	审核状态	|	1	|	M	|	0：初始（资料待完善） <br/>1：待审核<br/>2：已完成<br/>3：审核失败（已驳回）<br/>4：修改待审核<br/>5：修改审核驳回<br/>6：待签约<br/>7：修改资质待上传	|
 |	auditMsg	|	驳回原因	|	64	|	C	|		|
 |	wechatStatus	|	微信报备状态	|	1	|	C	|	1：报备待审核<br>2：报备成功<br>3：报备失败<br>4：实名认证待审核<br>5：实名认证驳回<br>6：实名认证待联系人确认<br>7：实名认证待账户验证<br>8：实名认证待授权<br>9：实名认证成功	|
 |	alipayStatus	|	支付宝报备状态	|	1	|	C	|	1：报备待审核<br>2：报备成功<br>3：报备失败|
@@ -64,9 +64,9 @@
 |	qrCode	|	微信小程序二维码图片	|		|	C	|	图片二进制，进行了base64编码	|
 |	wechatBankMerId	|微信银行商户号|	32	|	C	|微信报备状态为2：成功时返回,多个银行商户号以-分隔<br>eg:345818708-345830106|
 |	alipayBankMerId	|支付宝银行商户号|	32	|	C	|支付宝报备状态为2：成功时返回,多个银行商户号以-分隔<br>eg:2088500441729365-2088500442153705|
-|			|
-|	paper格式如下：		|
-|	商户基本信息：		|
+|			|||||
+|	paper格式如下：		|||||
+|	商户基本信息：		|||||
 |	字段	 |	名称	  |	长度  	|	必填  	|	说明	  |
 |	merchantType	|	商户类型	|	1	|	M	|	1:个体 2:企业 3:小微	|
 |	businessLicenseCode	|	营业执照编号	|	32	|	C	|	merchantType= 1、2必传	|
@@ -74,18 +74,18 @@
 |	businessLicenseEffective|	营业执照生效日期	|	8	|	C	|	merchantType= 1、2必传	|
 |	businessLicenseExpired	|	营业执照失效日期	|	8	|	C	|	merchantType= 1、2必传	|
 |	industryCategoryId	|	经营类目	|	4	|	M	|	参见附件一	|
-|	商户基本信息：		|
+|	商户基本信息：		|||||
 |	businessAddress	|	所属地址详细地址	|	256	|	M	|		|
 |	province	|	所属地址省	|	4	|	M	|		|
 |	city	|	所属地址市	|	4	|	M	|		|
 |	area	|	所属地址区	|	4	|	M	|		|
-|	法人资料信息：		|
+|	法人资料信息：		|||||
 |	lawyerName	|	法人姓名	|	32	|	C	|	merchantType= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	merchantType= 1、2必传，1：身份证	|
 |	lawyerCertNo	|	法人证件号	|	20	|	C	|	merchantType= 1、2必传	|
 |	certNoEffective	|	证件生效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件有效日期<br> merchantType=3时，为结算人证件有效日期<br>Ex:20190101	|
 |	certNoExpired	|	证件失效日期	|	8	|	C	|merchantType=1、2时，为企业法人证件失效日期<br> merchantType=3时，为结算人证件失效日期<br>Ex:20390101或永久	|
-|	联系人信息：		|
+|	联系人信息：		|||||
 	contactPerson	|	联系人姓名	|	32	|	M	|		|
 |	contactPersonId	|	联系人身份证号	|	18	|	M	|		|
 |	contactPhone	|	联系人手机号	|	11	|	M	|		|
