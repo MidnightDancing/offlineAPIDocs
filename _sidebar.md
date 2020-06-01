@@ -30,8 +30,8 @@
     * [3.9对账文件下载](offline/downfile.md)
     * [3.10对账文件](offline/checkfile.md)
     * [3.11刷脸支付-获取调用凭证](offline/face.md)
-    * [3.12查询D0付款结果](offline/queryD0.md)
-    * [3.13查询T1/D1付款结果](offline/queryT1.md)
+    * [3.12查询D0结算结果](offline/queryD0.md)
+    * [3.13查询T1/D1结算结果](offline/queryT1.md)
 * **4.回调通知接口定义**
     * [4.1商户入网审核结果通知](basicability/notify.md)
     * [4.2交易结果通知](basicability/tradenotify.md)
