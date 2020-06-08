@@ -63,7 +63,7 @@
 |	settleAccountType	|	结算账户类型	|	1	|	M	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	M	|		|
 |	settleAccount	|	结算户名	|	256	|	M	|		|
-|	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	|
+|	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	5:D0(7*24)|
 |	settleIdNo	|	身份证号	|	18	|	M	|		|
 |	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101或永久	|
