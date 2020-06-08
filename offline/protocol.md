@@ -27,7 +27,6 @@
 |	alipayChannelId	|	服务商支付宝渠道号	|	64	|	M	|	支付宝报备的服务商渠道号	|
 |	backUrl	|	回调通知地址	|	200	|	O	|	商户入网成功回调地址	|
 |	notifyUrl	|	交易结果通知地址	|	200	|	O	|	POS交易及立牌交易结果通知配置，主被扫交易结果通知地址配置，请详见具体交易接口文档	|
-
 |	|
 |	paper格式如下：		|
 |	商户基本信息：		|
@@ -67,7 +66,7 @@
 |	settleAccountType	|	结算账户类型	|	1	|	M	|	1:对公账户 2:法人账户3：被授权人账户<br>merchantType=3时必填2	|
 |	settleAccountNo	|	结算账号	|	30	|	M	|		|
 |	settleAccount	|	结算户名	|	256	|	M	|		|
-|	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	5:D0(7*24)|
+|	settlePeriod	|	结算周期	|	1	|	M	|	1:T1 2:D0 3:T0 4:D1	|
 |	settleIdNo	|	身份证号	|	18	|	M	|		|
 |	settleIdEffective|	身份证生效日期	|	8	|	M	|	Ex:20190101	|
 |	settleIdExpired	 |	身份证失效日期	|	8	|	M	|	Ex:20390101，长期有效身份证此处请填写“永久”！！！	|
