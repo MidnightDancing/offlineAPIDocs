@@ -33,6 +33,7 @@
 |cardType  |   银行卡类型   |  2   |  C   |01 – 借记卡；02 – 贷记卡  |
 |notifyType  |   通知类型   |  2   |  C   |1 – 消费；2 – 撤销；3 – 退款  |
 |merPriv  |   商户私有域   |  128   |  C   |商户私有域  |
+|orderType  |   订单类型   |  12   |  C   | alipay – 支付宝；wechat – 微信支付；unionpay – 银联二维码；mobilepos-手机pos；|
 |sign  |   签名   |  256   |  C   |  |
 
  **商户请求报文示例**
