@@ -50,6 +50,7 @@
 |	merPriv	|	商户私有域	|		|	O	|	商户私有域	|
 |	bankCardType	|	银行卡类型	|		|	O	|	1：借记卡；2：信用卡	|
 |	payerInfo	|	支付信息	|		|	O	|	商户私有域	|
+|	stlDate	|	对账结算日期	|		|	M	| 格式：yyyyMMdd（例如：20200615）|
 
  **返回报文示例**
 
