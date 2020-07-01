@@ -18,6 +18,7 @@
     * [2.12查询支行全称](offline/queryBankName.md)
     * [2.13修改商户信息](modify/updateMerInfo.md)
     * [2.14修改资质信息](modify/updateImgInfo.md)
+    * [2.15入网成功后修改信息](modify/modifyaftersuccess.md)
 * **3.支付相关接口定义**
     * [3.1公众号/小程序支付](offline/mini.md)
     * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
