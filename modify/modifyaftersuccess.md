@@ -63,27 +63,29 @@
 
 **示例**
 
->【请求示例】
->
->{
->	"acqMerId": "43602617",
->	"acqSpId": "Y273048756",
->	"rate": {
->		"feeRateWechatpay": "0.22"
->	},
->	"signature": "……………………"
->}
->
->【响应示例】
->
->{
->	"respCode": "00",
->	"respMsg": "处理成功",
->	"signature": "……………………",
->	"detailMsg": "[]"
->}
->
->
+```json
+【请求示例】
+
+{
+	"acqMerId": "43602617",
+	"acqSpId": "Y273048756",
+	"rate": {
+		"feeRateWechatpay": "0.22"
+	},
+	"signature": "……………………"
+}
+
+【响应示例】
+
+{
+	"respCode": "00",
+	"respMsg": "处理成功",
+	"signature": "……………………",
+	"detailMsg": "[]"
+}
+```
+
+
 
 【注意事项】
 
