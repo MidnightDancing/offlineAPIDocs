@@ -41,6 +41,8 @@
 |	province	|	所属地址省	|	4	|	M	|		|
 |	city	|	所属地址市	|	4	|	M	|		|
 |	area	|	所属地址区	|	4	|	M	|		|
+|	longitude	|	经度	|	16	|	C	|	商户交易所在位置经度，eg:-83.2345	|
+|	latitude	|	纬度	|	16	|	C	|	商户交易所在位置纬度，eg:-24.3094	|
 |	法人资料信息：		|
 |	lawyerName	|	法人姓名	|	32	|	C	|	merchantType= 1、2必传	|
 |	lawyerCertType	|	法人证件类型	|	1	|	C	|	merchantType= 1、2必传，1：身份证	;5:护照|
